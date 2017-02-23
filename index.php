@@ -1,4 +1,5 @@
 <?php 
+	//TODO: wrap includes into require_once('includes.php');
 	include('inc_head.php'); // Contains DOCTYPE, HEAD, BODY, and Beginning of Wrapper
 	include('inc_topbar.php'); // Contains "top-bar": Top Left Navigation & Social Media Links
 	include('inc_header.php'); // Contains "header": Logo & Navigation	
