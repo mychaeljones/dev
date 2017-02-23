@@ -6,7 +6,9 @@
 /less
 /sass
 /blog
-blog/*
+
+# Don’t Exclude These Folders in Excluded #
+!/blog/wp-content/themes/hannahpetsociety/*
 
 # Compiled source #
 ###################
