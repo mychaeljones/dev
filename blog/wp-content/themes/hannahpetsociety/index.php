@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-	hello
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	<meta name="author" content="Hannah Pet Society" />
 
 	<!-- Stylesheets
 	============================================= -->
@@ -22,9 +21,8 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Blog Layout | Canvas</title>
-
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"></head>
+	<title>Hannah Pet Society | Blog</title>
+</head>
 
 <body class="stretched">
 
@@ -32,101 +30,9 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
-		============================================= -->
-		<header id="header" class="sticky-style-2">
+		<?php include('../inc_wp_header.php'); ?>
 
-			<div class="container clearfix">
-
-				<!-- Logo
-				============================================= -->
-				<div id="logo" class="divcenter">
-					<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img class="divcenter" src="../../images/logo.png" alt="Canvas Logo"></a>
-					<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img class="divcenter" src="../../images/logo@2x.png" alt="Canvas Logo"></a>
-				</div><!-- #logo end -->
-
-			</div>
-
-			<div id="header-wrap">
-
-				<!-- Primary Navigation
-				============================================= -->
-				<nav id="primary-menu" class="style-2 center">
-
-					<div class="container clearfix">
-
-						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-						<ul>
-							<li class="current"><a href="#"><div>Home</div></a></li>
-							<li><a href="#"><div>Features</div></a></li>
-							<li><a href="#"><div>Categories</div></a></li>
-							<li><a href="#"><div>Authors</div></a></li>
-							<li><a href="#"><div>Portfolio</div></a></li>
-							<li><a href="#"><div>Blog</div></a></li>
-							<li><a href="#"><div>Contribute</div></a></li>
-							<li><a href="#"><div>Contact</div></a></li>
-						</ul>
-
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div><!-- #top-search end -->
-
-					</div>
-
-				</nav><!-- #primary-menu end -->
-
-			</div>
-
-		</header><!-- #header end -->
-
-		<section id="slider" class="slider-parallax swiper_wrapper clearfix">
-
-			<div class="swiper-container swiper-parent">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/1.jpg');">
-						<div class="container clearfix">
-							<div class="slider-caption slider-caption-center">
-								<h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
-								<p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark">
-						<div class="container clearfix">
-							<div class="slider-caption slider-caption-center">
-								<h2 data-caption-animate="fadeInUp">Beautifully Flexible</h2>
-								<p data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
-							</div>
-						</div>
-						<div class="video-wrap">
-							<video poster="images/videos/explore.jpg" preload="auto" loop autoplay muted>
-								<source src='images/videos/explore.mp4' type='video/mp4' />
-								<source src='images/videos/explore.webm' type='video/webm' />
-							</video>
-							<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-						</div>
-					</div>
-					<div class="swiper-slide" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;">
-						<div class="container clearfix">
-							<div class="slider-caption">
-								<h2 data-caption-animate="fadeInUp">Great Performance</h2>
-								<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
-				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
-				<div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
-			</div>
-
-		</section>
+		
 
 		<!-- Content
 		============================================= -->
