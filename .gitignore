@@ -5,6 +5,8 @@
 /include
 /less
 /sass
+/blog
+blog/*
 
 # Compiled source #
 ###################
