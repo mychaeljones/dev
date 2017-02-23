@@ -7,8 +7,9 @@
 /sass
 /blog
 
-# Don’t Exclude These Folders in Excluded #
-!/blog/wp-content/themes/hannahpetsociety/*
+# Include these folders from excluded folders #
+blog/*/wp-content/*/themes/*/hannahpetsociety/
+!blog/*/wp-content/*/themes/*/hannahpetsociety/*
 
 # Compiled source #
 ###################
