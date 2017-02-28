@@ -1,151 +1,175 @@
 <!-- Comments
-						============================================= -->
-						<div id="comments" class="clearfix">
+============================================= -->
+<div id="comments" class="clearfix">
 
-							<h3 id="comments-title"><span>3</span> Comments</h3>
+	<h3 id="comments-title"><span></span> Comments</h3>
 
-							<!-- Comments List
-							============================================= -->
-							<ol class="commentlist clearfix">
+	<!-- Comments List
+	============================================= -->		
+	<ol class="commentlist clearfix">
+	<?php
+		foreach($comments as $comment) {
+	?>	
+		<li class="comment even thread-even depth-1" id="li-comment-1">
 
-								<li class="comment even thread-even depth-1" id="li-comment-1">
+			<div id="comment-1" class="comment-wrap clearfix">
 
-									<div id="comment-1" class="comment-wrap clearfix">
+				<div class="comment-meta">
 
-										<div class="comment-meta">
+					<div class="comment-author vcard">
 
-											<div class="comment-author vcard">
+						<span class="comment-avatar clearfix">
+						<!-- Comment Avatar -->
+						<?php echo get_avatar( $comment, 32 ); ?>
+						<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
 
-												<span class="comment-avatar clearfix">
-												<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
+					</div>
 
-											</div>
+				</div>
 
-										</div>
+				<div class="comment-content clearfix">
 
-										<div class="comment-content clearfix">
+					<div class="comment-author"><?php comment_author(); ?><span><a href="#" title="Permalink to this comment"><?php comment_date(); ?></a></span></div>
 
-											<div class="comment-author">John Doe<span><a href="#" title="Permalink to this comment">April 24, 2012 at 10:46 am</a></span></div>
+					<p><?php comment_text(); ?></p>
 
-											<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+					<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
-											<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+				</div>
 
-										</div>
+				<div class="clear"></div>
 
-										<div class="clear"></div>
+			</div>
+<!-- added by me -->
+		</li>
+	<?php
+		}
+	?>
+	</ol>
+		
+<!--
+			<ul class='children'>
 
-									</div>
+				<li class="comment byuser comment-author-_smcl_admin odd alt depth-2" id="li-comment-3">
 
+					<div id="comment-3" class="comment-wrap clearfix">
 
-									<ul class='children'>
+						<div class="comment-meta">
 
-										<li class="comment byuser comment-author-_smcl_admin odd alt depth-2" id="li-comment-3">
+							<div class="comment-author vcard">
 
-											<div id="comment-3" class="comment-wrap clearfix">
+								<span class="comment-avatar clearfix">
+								<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></span>
 
-												<div class="comment-meta">
+							</div>
 
-													<div class="comment-author vcard">
+						</div>
 
-														<span class="comment-avatar clearfix">
-														<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></span>
+						<div class="comment-content clearfix">
 
-													</div>
+							<div class="comment-author"><a href='#' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
 
-												</div>
+							<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
-												<div class="comment-content clearfix">
+							<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
-													<div class="comment-author"><a href='#' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+						</div>
 
-													<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<div class="clear"></div>
 
-													<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+					</div>
 
-												</div>
+				</li>
 
-												<div class="clear"></div>
+			</ul>
 
-											</div>
+		</li>
 
-										</li>
+		<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
 
-									</ul>
+			<div id="comment-2" class="comment-wrap clearfix">
 
-								</li>
+				<div class="comment-meta">
 
-								<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
+					<div class="comment-author vcard">
 
-									<div id="comment-2" class="comment-wrap clearfix">
+						<span class="comment-avatar clearfix">
+						<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
 
-										<div class="comment-meta">
+					</div>
 
-											<div class="comment-author vcard">
+				</div>
 
-												<span class="comment-avatar clearfix">
-												<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
+				<div class="comment-content clearfix">
 
-											</div>
+					<div class="comment-author"><a href='http://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
 
-										</div>
+					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
-										<div class="comment-content clearfix">
+					<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
-											<div class="comment-author"><a href='http://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+				</div>
 
-											<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+				<div class="clear"></div>
 
-											<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
+			</div>
 
-										</div>
+		</li>
 
-										<div class="clear"></div>
+	</ol> .commentlist end -->
 
-									</div>
+	<div class="clear"></div>
 
-								</li>
+<?php
+	
+	if(comments_open()) {
+	?>
+	
+	<!-- Comment Form
+	============================================= -->
+	<div id="respond" class="clearfix">
 
-							</ol><!-- .commentlist end -->
+		<h3>Leave a <span>Comment</span></h3>
 
-							<div class="clear"></div>
+		<form class="clearfix" action="<?php echo site_url('wp-comments-post.php'); ?>" method="post" id="commentform">
+			<input type="hidden" name="comment_post_ID" value='<?php echo $post->ID; ?>' id='comment_post_ID' />
 
-							<!-- Comment Form
-							============================================= -->
-							<div id="respond" class="clearfix">
+			<div class="col_one_third">
+				<label for="author">Name</label>
+				<input type="text" name="author" id="author" value="" size="22" tabindex="1" class="sm-form-control" />
+			</div>
 
-								<h3>Leave a <span>Comment</span></h3>
+			<div class="col_one_third">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" value="" size="22" tabindex="2" class="sm-form-control" />
+			</div>
 
-								<form class="clearfix" action="#" method="post" id="commentform">
+			<div class="col_one_third col_last">
+				<label for="url">Website</label>
+				<input type="text" name="url" id="url" value="" size="22" tabindex="3" class="sm-form-control" />
+			</div>
 
-									<div class="col_one_third">
-										<label for="author">Name</label>
-										<input type="text" name="author" id="author" value="" size="22" tabindex="1" class="sm-form-control" />
-									</div>
+			<div class="clear"></div>
 
-									<div class="col_one_third">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" value="" size="22" tabindex="2" class="sm-form-control" />
-									</div>
+			<div class="col_full">
+				<label for="comment">Comment</label>
+				<textarea name="comment" cols="58" rows="7" tabindex="4" class="sm-form-control"></textarea>
+			</div>
 
-									<div class="col_one_third col_last">
-										<label for="url">Website</label>
-										<input type="text" name="url" id="url" value="" size="22" tabindex="3" class="sm-form-control" />
-									</div>
+			<div class="col_full nobottommargin">
+				<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d nomargin">Submit Comment</button>
+			</div>
 
-									<div class="clear"></div>
+		</form>
 
-									<div class="col_full">
-										<label for="comment">Comment</label>
-										<textarea name="comment" cols="58" rows="7" tabindex="4" class="sm-form-control"></textarea>
-									</div>
+	</div><!-- #respond end -->
 
-									<div class="col_full nobottommargin">
-										<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d nomargin">Submit Comment</button>
-									</div>
+	
+	<?php
+	} else {
+		_e('Comments are closed', "HPS");
+	}
+?>
 
-								</form>
 
-							</div><!-- #respond end -->
-
-						</div><!-- #comments end -->
+</div><!-- #comments end -->
