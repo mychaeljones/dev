@@ -9,13 +9,19 @@
 	
 	
 	
-	/* Excerpt Length Control
+	/* Excerpt Control
 	========================================= */
+	// Show 75 words for post excerpt
 	function set_excerpt_length(){
-		return 35;
+		return 25;
 	}
-	
 	add_filter('excerpt_length', 'set_excerpt_length');
+	
+	// Remove Read More "..."
+	function remove_excerpt_more($more) {
+		return null;
+	}
+	add_filter('excerpt_more', 'remove_excerpt_more');
 	
 
 	
