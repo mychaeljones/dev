@@ -47,15 +47,15 @@
 								=================================== -->
 								<ul class="entry-meta clearfix">
 									<li><i class="icon-calendar3"></i> <?php the_time('F j, Y'); ?></li>
-									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
-									<li><a href="#"><i class="icon-camera-retro"></i></a></li>
+									<li><a href="blog-single.html#comments"><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></a></li>
+									<!--<li><a href="#"><i class="icon-camera-retro"></i></a></li>-->
 								</ul>
 								
 								<!-- Post Content
 								=================================== -->
 								<div class="entry-content">
 									<p><?php the_excerpt(); ?></p>
-									<a href="blog-single.html"class="more-link">Read More</a>
+									<a href="<?php the_permalink(); ?>" class="more-link">Read More</a>
 								</div>	
 								
 							</div><!-- clearfix end -->				
