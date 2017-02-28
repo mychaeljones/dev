@@ -141,7 +141,7 @@
 						<div class="line"></div>
 
 						<!-- Post Author Info
-						============================================= -->
+						============================================= 
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h3 class="panel-title">Posted by <span><a href="#">John Doe</a></span></h3>
@@ -152,10 +152,10 @@
 								</div>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet, eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae blanditiis praesentium vitae ab sint earum voluptate velit beatae alias fugit accusantium laboriosam nisi reiciendis deleniti tenetur molestiae maxime id quaerat consequatur fugiat aliquam laborum nam aliquid. Consectetur, perferendis?
 							</div>
-						</div><!-- Post Single - Author End -->
+						</div><!-- Post Single - Author End
 
 						<div class="line"></div>
-
+						-->
 
 
 <?php 
