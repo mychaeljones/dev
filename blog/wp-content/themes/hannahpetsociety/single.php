@@ -29,7 +29,6 @@
 							============================================= -->
 							<ul class="entry-meta clearfix">
 								<li><i class="icon-calendar3"></i> <?php the_time('F j, Y'); ?></li>
-								<li><a href="#"><i class="icon-user"></i> admin</a></li>
 								<li>
 									<i class="icon-folder-open"></i> 
 									<?php foreach((get_the_category()) as $category) {
