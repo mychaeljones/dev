@@ -53,7 +53,7 @@
 									}		
 									?>
 								</li>
-								<li><a href="#"><i class="icon-comments"></i> 43 Comments</a></li>
+								<li><a href="#"><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></a></li>
 								<li><a href="#"><i class="icon-camera-retro"></i></a></li>
 							</ul><!-- .entry-meta end -->
 
@@ -129,11 +129,11 @@
 						<div class="post-navigation clearfix">
 
 							<div class="col_half nobottommargin">
-								<a href="#">&lArr; This is a Standard post with a Slider Gallery</a>
+								<?php previous_post_link(); ?>
 							</div>
 
 							<div class="col_half col_last tright nobottommargin">
-								<a href="#">This is an Embedded Audio Post &rArr;</a>
+								<?php next_post_link(); ?>
 							</div>
 
 						</div><!-- .post-navigation end -->
@@ -156,84 +156,152 @@
 
 						<div class="line"></div>
 
+
+
+<?php 
+	/* OPTIMIZE: 	The redundant calls to the loop is nasty. 
+					There has to be a better and more efficient way.
+					This is flipping ugly php bro. 
+	*/ 
+?>
+
+						<!-- Related Posts
+						============================================== -->
 						<h4>Related Posts:</h4>
-
 						<div class="related-posts clearfix">
+							<?php									
+						        $orig_post = $post;
+						        global $post;
+						        $tags = wp_get_post_tags($post->ID);
+								
+						        if ($tags) {
+						            $tag_ids = array();
+							        foreach($tags as $individual_tag) {
+								        $tag_ids[] = $individual_tag->term_id;
+								        }
+						            $args=array(
+						                'tag__in' => $tag_ids,
+						                'post__not_in' => array($post->ID),
+						                'posts_per_page'=>2, // Number of related posts to display in a column.
+						                
+						            );
+							 
+							        $my_query = new wp_query( $args );
+							 ?>
+							 
+							 <div class="col_half nobottommargin">
+							 
+							 <?php
+							        while($my_query->have_posts()) {
+							            $my_query->the_post();
+						    ?>
 
-							<div class="col_half nobottommargin">
-
+						 
+								<!-- Related Posts -->							
 								<div class="mpost clearfix">
+									<!-- Related Posts Image -->
 									<div class="entry-image">
-										<a href="#"><img src="images/blog/small/10.jpg" alt="Blog Single"></a>
+										<a rel="external" href="<? the_permalink()?>" alt="<?php the_title(); ?>"><?php the_post_thumbnail(); ?>
 									</div>
+	
 									<div class="entry-c">
+										<!-- Related Posts Title -->
 										<div class="entry-title">
-											<h4><a href="#">This is an Image Post</a></h4>
+											<h4>
+												<a href="<?php the_permalink(); ?>" alt="<?php the_title(); ?>">
+												<?php the_title(); ?></a>
+											</h4>
 										</div>
+	
+										<!-- Related Posts Meta -->
 										<ul class="entry-meta clearfix">
-											<li><i class="icon-calendar3"></i> 10th July 2014</li>
-											<li><a href="#"><i class="icon-comments"></i> 12</a></li>
+											<li><i class="icon-calendar3"></i> <?php the_time('F j, Y'); ?></li>
+											<li><a href="#"><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></a></li>
 										</ul>
-										<div class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi perferendis.</div>
-									</div>
-								</div>
+	
+										<!-- Related Posts Excerpt -->
+										<div class="entry-content"><?php the_excerpt(); ?></div>
+									</div><!-- end entry-c -->
+						        </div><!-- end mpost clearfix -->
 
-								<div class="mpost clearfix">
-									<div class="entry-image">
-										<a href="#"><img src="images/blog/small/20.jpg" alt="Blog Single"></a>
-									</div>
-									<div class="entry-c">
-										<div class="entry-title">
-											<h4><a href="#">This is a Video Post</a></h4>
-										</div>
-										<ul class="entry-meta clearfix">
-											<li><i class="icon-calendar3"></i> 24th July 2014</li>
-											<li><a href="#"><i class="icon-comments"></i> 16</a></li>
-										</ul>
-										<div class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi perferendis.</div>
-									</div>
-								</div>
-
-							</div>
-
+						        <?php 
+							        	} // end while
+						        	} // end if
+						        	
+									$post = $orig_post;
+									wp_reset_query();
+						        ?>
+							</div><!-- end col_half nobottommargin -->
+							
+							
 							<div class="col_half nobottommargin col_last">
-
+								<?php
+							        $orig_post = $post;
+							        global $post;
+							        $tags = wp_get_post_tags($post->ID);
+							 
+							        if ($tags) {
+							            $tag_ids = array();
+								        foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
+								            $args=array(
+								                'tag__in' => $tag_ids,
+								                'post__not_in' => array($post->ID),
+								                'posts_per_page'=>2, // Number of related posts to display in a columb.
+								                'offset'=>2
+								            );
+								 
+								        $my_query = new wp_query( $args );
+								 
+								        while( $my_query->have_posts() ) {
+								            $my_query->the_post();
+							    ?>
+						 
+								<!-- Related Posts -->							
 								<div class="mpost clearfix">
+									<!-- Related Posts Image -->
 									<div class="entry-image">
-										<a href="#"><img src="images/blog/small/21.jpg" alt="Blog Single"></a>
+										<a rel="external" href="<? the_permalink()?>" alt="<?php the_title(); ?>"><?php the_post_thumbnail(); ?>
 									</div>
+	
 									<div class="entry-c">
+										<!-- Related Posts Title -->
 										<div class="entry-title">
-											<h4><a href="#">This is a Gallery Post</a></h4>
+											<h4>
+												<a href="<?php the_permalink(); ?>" alt="<?php the_title(); ?>">
+												<?php the_title(); ?></a>
+											</h4>
 										</div>
+	
+										<!-- Related Posts Meta -->
 										<ul class="entry-meta clearfix">
-											<li><i class="icon-calendar3"></i> 8th Aug 2014</li>
-											<li><a href="#"><i class="icon-comments"></i> 8</a></li>
+											<li><i class="icon-calendar3"></i> <?php the_time('F j, Y'); ?></li>
+											<li><a href="#"><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></a></li>
 										</ul>
-										<div class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi perferendis.</div>
-									</div>
-								</div>
+	
+										<!-- Related Posts Excerpt -->
+										<div class="entry-content"><?php the_excerpt(); ?></div>
+									</div><!-- end entry-c -->
+						        </div><!-- end mpost clearfix -->
 
-								<div class="mpost clearfix">
-									<div class="entry-image">
-										<a href="#"><img src="images/blog/small/22.jpg" alt="Blog Single"></a>
-									</div>
-									<div class="entry-c">
-										<div class="entry-title">
-											<h4><a href="#">This is an Audio Post</a></h4>
-										</div>
-										<ul class="entry-meta clearfix">
-											<li><i class="icon-calendar3"></i> 22nd Aug 2014</li>
-											<li><a href="#"><i class="icon-comments"></i> 21</a></li>
-										</ul>
-										<div class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi perferendis.</div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
+						        <?php 
+							        	} // end while
+						        	} // end if
+						        	
+									$post = $orig_post;
+									wp_reset_query();
+						        ?>
+							</div><!-- end col_half nobottommargin col_last -->
+						</div><!-- end related post clearfix -->
 						
+<?php /* 
+	  ========================
+		End of the UGLY code
+	  ========================
+	  */ 
+?>						
+						
+						<!-- Comments Section
+						=========================================== -->
 						<?php comments_template(); ?>
 
 					</div>
