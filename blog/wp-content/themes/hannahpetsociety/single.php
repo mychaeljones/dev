@@ -4,21 +4,6 @@
 	=============================================== -->
 	<?php if(have_posts()) : ?>
 		<?php while(have_posts()) : the_post(); ?>	
-	
-		<!-- Page Title
-		=============================================
-		<section id="page-title">
-
-			<div class="container clearfix">
-				<h1><?php the_title(); ?></h1>
-				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Blog</a></li>
-					<li class="active">Blog Single</li>
-				</ol>
-			</div>
-
-		</section><!-- #page-title end -->
 
 		<!-- Content
 		============================================= -->
@@ -54,7 +39,6 @@
 									?>
 								</li>
 								<li><a href="#"><i class="icon-comments"></i> <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></a></li>
-								<li><a href="#"><i class="icon-camera-retro"></i></a></li>
 							</ul><!-- .entry-meta end -->
 
 							<!-- Entry Image
@@ -140,24 +124,6 @@
 
 						<div class="line"></div>
 
-						<!-- Post Author Info
-						============================================= 
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h3 class="panel-title">Posted by <span><a href="#">John Doe</a></span></h3>
-							</div>
-							<div class="panel-body">
-								<div class="author-image">
-									<img src="images/author/1.jpg" alt="" class="img-circle">
-								</div>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet, eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae blanditiis praesentium vitae ab sint earum voluptate velit beatae alias fugit accusantium laboriosam nisi reiciendis deleniti tenetur molestiae maxime id quaerat consequatur fugiat aliquam laborum nam aliquid. Consectetur, perferendis?
-							</div>
-						</div><!-- Post Single - Author End
-
-						<div class="line"></div>
-						-->
-
-
 <?php 
 	/* OPTIMIZE: 	The redundant calls to the loop is nasty. 
 					There has to be a better and more efficient way.
@@ -165,9 +131,11 @@
 	*/ 
 ?>
 
+
+
 						<!-- Related Posts
 						============================================== -->
-						<h4>Related Posts:</h4>
+						<?php /* <h4>Related Posts:</h4> */ ?>
 						<div class="related-posts clearfix">
 							<?php									
 						        $orig_post = $post;
@@ -188,7 +156,8 @@
 							 
 							        $my_query = new wp_query( $args );
 							 ?>
-							 
+						<h4>Related Posts:</h4>
+
 							 <div class="col_half nobottommargin">
 							 
 							 <?php
