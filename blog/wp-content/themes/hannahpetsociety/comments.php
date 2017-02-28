@@ -1,3 +1,5 @@
+<?php if (have_comments()) { ?>
+
 <!-- Comments
 ============================================= -->
 <div id="comments" class="clearfix">
@@ -41,19 +43,19 @@
 
 			</div>
 		</li>
-	<?php
-		}
-	?>
+	<?php }	?>
 	</ol>
 		
 
 
 	<div class="clear"></div>
 
-<?php
-	
-	if(comments_open()) {
-	?>
+<?php } else { // or, if we don't have comments:
+
+	if(!comments_open()) { ?>
+		<p class="nocomments"><?php _e('Comments are closed.', 'HPS'); ?></p>
+	<?php } // end ! comments_open() ?>
+<?php } // end have_comments() ?>
 	
 	<!-- Comment Form
 	============================================= -->
@@ -95,11 +97,7 @@
 	</div><!-- #respond end -->
 
 	
-	<?php
-	} else {
-		_e('Comments are closed', "HPS");
-	}
-?>
+
 
 
 </div><!-- #comments end -->
