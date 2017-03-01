@@ -1005,6 +1005,7 @@ body.stretched #header.full-header .container {
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
+	margin-top: 5px; /* new */
 }
 
 #header.full-header #logo {
@@ -1981,7 +1982,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #header,
 #header-wrap,
 #logo img {
-	height: 100px;
+	height: 95px; /* was 100px logo margin-top on 1001 didn't exist either */
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
