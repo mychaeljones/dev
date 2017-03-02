@@ -452,77 +452,7 @@
 									</ul>
 								</div>
 							</li>
-							<li class="mega-menu"><a href="#"><div>Blog</div></a>
-								<div class="mega-menu-content style-2 clearfix">
-									<ul class="mega-menu-column col-md-3">
-										<li class="mega-menu-title"><a href="#"><div>Default</div></a>
-											<ul>
-												<li><a href="blog.html"><div>Right Sidebar</div></a></li>
-												<li><a href="blog-left-sidebar.html"><div>Left Sidebar</div></a></li>
-												<li><a href="blog-both-sidebar.html"><div>Both Sidebar</div></a></li>
-												<li><a href="blog-full-width.html"><div>Full Width</div></a></li>
-											</ul>
-										</li>
-										<li class="mega-menu-title"><a href="#"><div>Timeline</div></a>
-											<ul>
-												<li><a href="blog-timeline-right-sidebar.html"><div>Right Sidebar</div></a></li>
-												<li><a href="blog-timeline-left-sidebar.html"><div>Left Sidebar</div></a></li>
-												<li><a href="blog-timeline.html"><div>Full Width</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-md-3">
-										<li class="mega-menu-title"><a href="#"><div>Masonry</div></a>
-											<ul>
-												<li><a href="blog-masonry.html"><div>4 Columns</div></a></li>
-												<li><a href="blog-masonry-3.html"><div>3 Columns</div></a></li>
-												<li><a href="blog-masonry-2.html"><div>2 Columns</div></a></li>
-												<li><a href="blog-masonry-full.html"><div>100% Width</div></a></li>
-											</ul>
-										</li>
-										<li class="mega-menu-title"><a href="#"><div>Grid</div></a>
-											<ul>
-												<li><a href="blog-grid.html"><div>4 Columns</div></a></li>
-												<li><a href="blog-grid-3.html"><div>3 Columns</div></a></li>
-												<li><a href="blog-grid-2.html"><div>2 Columns</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-md-3">
-										<li class="mega-menu-title"><a href="#"><div>Small Thumbs</div></a>
-											<ul>
-												<li><a href="blog-small-left-sidebar.html"><div>Left Sidebar</div></a></li>
-												<li><a href="blog-small.html"><div>Right Sidebar</div></a></li>
-												<li><a href="blog-small-both-sidebar.html"><div>Both Sidebar</div></a></li>
-												<li><a href="blog-small-full-width.html"><div>Full Width</div></a></li>
-												<li><a href="blog-small-alt.html"><div>Alternate Layout</div></a></li>
-											</ul>
-										</li>
-										<li class="mega-menu-title"><a href="#"><div>Item Splitting</div></a>
-											<ul>
-												<li><a href="blog-grid.html"><div>Pagination</div></a></li>
-												<li><a href="blog-masonry.html"><div>Infinite Scroll</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-md-3">
-										<li class="mega-menu-title"><a href="#"><div>Single</div></a>
-											<ul>
-												<li><a href="blog-single.html"><div>Default Layout</div></a></li>
-												<li><a href="blog-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
-												<li><a href="blog-single-full.html"><div>Full Width</div></a></li>
-												<li><a href="blog-single-small.html"><div>Small Image</div></a></li>
-												<li><a href="blog-single-split-right-sidebar.html"><div>Split Layout</div></a></li>
-											</ul>
-										</li>
-										<li class="mega-menu-title"><a href="#"><div>Comments Module</div></a>
-											<ul>
-												<li><a href="blog-single-left-sidebar.html#comments"><div>Facebook Comments</div></a></li>
-												<li><a href="blog-single-small.html#comments"><div>Disqus Comments</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
+							<li class="mega-menu"><a href="/blog/"><div>Blog</div></a>	
 							</li>
 							<li><a href="shop.html"><div>Shop</div></a>
 								<ul>
