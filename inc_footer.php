@@ -14,11 +14,11 @@
 
 					<div class="widget clearfix">
 
-						<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+						<img src="/images/footer-widget-logo.png" alt="" class="footer-logo">
 
-						<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-						<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+						<p>HI! We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+							
+						<div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
 							<address>
 								<strong>Headquarters:</strong><br>
 								795 Folsom Ave, Suite 600<br>
@@ -57,41 +57,37 @@
 
 					<div class="widget clearfix">
 						<h4>Recent Posts</h4>
-
 						<div id="post-list-footer">
-							<div class="spost clearfix">
+							<?php
+						
+							// Get the last 3 posts
+							// Returns posts as arrays instead of get_posts' objects
+							$recent_posts = wp_get_recent_posts(array(
+								'numberposts' => 3
+							));
+								
+							// Do something with them
+							echo '<ul>';
+							foreach($recent_posts as $post) { ?>
+								<div class="spost clearfix">
 								<div class="entry-c">
 									<div class="entry-title">
-										<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+										<h4>
+											<?php echo '<a href="', get_permalink($post['ID']), '">', $post['post_title'], '</a>'; ?>
+										</h4>
 									</div>
 									<ul class="entry-meta">
-										<li>10th July 2014</li>
+										<li><?php echo date('F j, Y', strtotime($post['post_date'])); ?></li>
 									</ul>
-								</div>
-							</div>
-
-							<div class="spost clearfix">
-								<div class="entry-c">
-									<div class="entry-title">
-										<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
 									</div>
-									<ul class="entry-meta">
-										<li>10th July 2014</li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="spost clearfix">
-								<div class="entry-c">
-									<div class="entry-title">
-										<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-									</div>
-									<ul class="entry-meta">
-										<li>10th July 2014</li>
-									</ul>
-								</div>
-							</div>
+								</div>		
+							<?php
+							}
+							echo '</ul>';
+							
+							?>
 						</div>
+								
 					</div>
 
 				</div>
