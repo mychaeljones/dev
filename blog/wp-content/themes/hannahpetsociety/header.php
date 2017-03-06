@@ -1,3 +1,5 @@
+<?php require_once('../functions.php'); ?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -36,6 +38,6 @@
 		<?php
 			// Navigation 
 			// TODO: make WP_Include file
-			include('../inc_wp_topbar.php');
-			include('../inc_wp_header.php'); 
+			include('../inc_topbar.php');
+			include('../inc_header.php'); 
 		?>
