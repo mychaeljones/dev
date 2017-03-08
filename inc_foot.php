@@ -103,7 +103,6 @@
 		});
 
 	</script>
-
 <?php endif; ?>
 
 </body>
