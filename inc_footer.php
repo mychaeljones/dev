@@ -63,7 +63,8 @@
 							// Get the last 3 posts
 							// Returns posts as arrays instead of get_posts' objects
 							$recent_posts = wp_get_recent_posts(array(
-								'numberposts' => 3
+								'numberposts' => 3,
+								'post_status' => 'publish'
 							));
 								
 							// Do something with them
