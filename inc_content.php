@@ -8,7 +8,7 @@
 				<div class="container clearfix">
 					<div class="slider-caption slider-caption-center">
 						<h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
-						<p data-caption-animate="fadeInUp" data-caption-delay="200">Create <a href="<?php social("facebook"); ?>"><?php social("facebook"); ?></a>just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+						<p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
 					</div>
 				</div>
 			</div>
