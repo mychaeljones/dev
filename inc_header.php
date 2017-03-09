@@ -52,13 +52,13 @@
 					
 					<li><a href="#"><div>Explore Plans</div></a>
 						<ul>
-							<li><a href="#"><div><i class="icon-stack"></i>Healthy Dog/Puppy Plans</div></a></li>
+							<li><a href="healthy-dog-plans.php"><div><i class="icon-stack"></i>Healthy Dog/Puppy Plans</div></a></li>
 															
-							<li><a href="#"><div><i class="icon-gift"></i>Healthy Cat/Kitten Plans</div></a></li>
+							<li><a href="healthy-cat-plans.php"><div><i class="icon-gift"></i>Healthy Cat/Kitten Plans</div></a></li>
 								
-							<li><a href="#"><div><i class="icon-umbrella"></i>Sick or Injured Pet Plans</div></a></li>
+							<li><a href="sick-or-injured-pet-plans.php"><div><i class="icon-umbrella"></i>Sick or Injured Pet Plans</div></a></li>
 								
-							<li><a href="#"><div><i class="icon-line-layout"></i>Additional Services</div></a></li>
+							<li><a href="additional-services.php"><div><i class="icon-line-layout"></i>Additional Services</div></a></li>
 								
 							<li><a href="#"><div><i class="icon-line-columns"></i>Inquire Online</div></a></li>
 
@@ -68,6 +68,8 @@
 					
 					<li><a href="#"><div>Why Choose Hannah?</div></a>
 						<ul>
+							<li><a href="#"><div><i class="icon-stack"></i>All-Inclusive Coverage</div></a></li>
+
 							<li><a href="#"><div><i class="icon-stack"></i>The Hannah Experience</div></a></li>
 															
 							<li><a href="#"><div><i class="icon-gift"></i>Lifetime Membership</div></a></li>
@@ -80,7 +82,7 @@
 
 					<li><a href="#"><div>Our Services</div></a>
 						<ul>
-							<li><a href="#"><div><i class="icon-stack"></i>Wellness Care</div></a></li>
+							<li><a href="wellness-care.php"><div><i class="icon-stack"></i>Wellness Care</div></a></li>
 															
 							<li><a href="#"><div><i class="icon-gift"></i>Emergency Care</div></a></li>
 								
@@ -100,6 +102,16 @@
 						</ul>
 					</li>
 					
+					<li><a href="#"><div>Our Locations</div></a>
+						<ul>
+							<li><a href="veterinary-hospitals.php"><div><i class="icon-stack"></i>Veterinary Hospitals</div></a></li>
+															
+							<li><a href="#"><div><i class="icon-gift"></i>Portland</div></a></li>
+																						
+							<li><a href="#"><div><i class="icon-gift"></i>Tigard</div></a></li>
+						</ul>
+					</li>
+					
 					<li><a href="#"><div>Contact Us</div></a>
 						<ul>
 							<li><a href="#"><div><i class="icon-stack"></i>Contact Form</div></a></li>
@@ -114,7 +126,7 @@
 						<ul>
 							<li><a href="#"><div><i class="icon-stack"></i>Hannah's Helping Hands</div></a></li>
 															
-							<li><a href="#"><div><i class="icon-gift"></i>Hannah Friends </div></a></li>
+							<li><a href="#"><div><i class="icon-gift"></i>Hannah Friends Group</div></a></li>
 						</ul>
 					</li>
 				</ul>
