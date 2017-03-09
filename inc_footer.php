@@ -69,7 +69,9 @@
 								
 							// Do something with them
 							echo '<ul>';
-							foreach($recent_posts as $post) { ?>
+							foreach($recent_posts as $post) { 
+							?>
+							
 								<div class="spost clearfix">
 								<div class="entry-c">
 									<div class="entry-title">
@@ -134,7 +136,7 @@
 					<div class="row">
 
 						<div class="col-md-6 clearfix bottommargin-sm">
-							<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+							<a href="<?php social("facebook"); ?>" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
 							</a>
@@ -171,7 +173,7 @@
 
 			<div class="col_half col_last tright">
 				<div class="fright clearfix">
-					<a href="#" class="social-icon si-small si-borderless si-facebook">
+					<a href="https://www.facebook.com/TheHannahSociety/" class="social-icon si-small si-borderless si-facebook">
 						<i class="icon-facebook"></i>
 						<i class="icon-facebook"></i>
 					</a>
