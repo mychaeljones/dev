@@ -44,39 +44,22 @@
 	
 	#***************************************
 	#*
-	#*	Social Media & RSS Feed Links
+	#*	Social Media & RSS Feed Links - (v2)
 	#*
 	#***************************************
 	
 	function social($platform) {
+		$social_media_links = array(
+			"rss"		=> "/blog/?feed=rss2",
+			"facebook" 	=> "https://www.facebook.com/TheHannahSociety/",
+			"twitter" 	=> "https://twitter.com/HannahSociety",
+			"instagram" => "https://instagram.com/hannahthepetsociety/",
+			"pinterest" => "https://www.pinterest.com/hannah_society/",
+		);
 		
-		$rss = "/blog/?feed=rss2";
-		$facebook = "https://www.facebook.com/TheHannahSociety/";
-		$twitter = "https://twitter.com/HannahSociety";
-		$instagram = "https://www.instagram.com/hannahthepetsociety/";
-		$pinterest = "https://www.pinterest.com/hannah_society/";
-	
-		switch ($platform) {
-			case "rss":
-				echo $rss;
-				break;
-				
-			case "facebook":
-				echo $facebook;
-				break;
-				
-			case "twitter":
-				echo $twitter;
-				break;
-				
-			case "instagram":
-				echo $instagram;
-				break;
-				
-			case "pinterest":
-				echo $pinterest;
-				break;
-		}		
+		if(array_key_exists($platform, $social_media_links)) {
+			echo $social_media_links[$platform]; 
+		}
 	}
 	
 	
