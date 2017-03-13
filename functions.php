@@ -44,18 +44,23 @@
 	
 	#***************************************
 	#*
-	#*	Social Media Links
+	#*	Social Media & RSS Feed Links
 	#*
 	#***************************************
 	
 	function social($platform) {
-	
+		
+		$rss = "/blog/?feed=rss2";
 		$facebook = "https://www.facebook.com/TheHannahSociety/";
 		$twitter = "https://twitter.com/HannahSociety";
 		$instagram = "https://www.instagram.com/hannahthepetsociety/";
 		$pinterest = "https://www.pinterest.com/hannah_society/";
 	
 		switch ($platform) {
+			case "rss":
+				echo $rss;
+				break;
+				
 			case "facebook":
 				echo $facebook;
 				break;
