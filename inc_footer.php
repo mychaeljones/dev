@@ -173,26 +173,27 @@
 
 			<div class="col_half col_last tright">
 				<div class="fright clearfix">
-					<a href="https://www.facebook.com/TheHannahSociety/" class="social-icon si-small si-borderless si-facebook">
+					<a href="<?php social("facebook"); ?>" class="social-icon si-small si-borderless si-facebook">
 						<i class="icon-facebook"></i>
 						<i class="icon-facebook"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-borderless si-twitter">
+					<a href="<?php social("twitter"); ?>" class="social-icon si-small si-borderless si-twitter">
 						<i class="icon-twitter"></i>
 						<i class="icon-twitter"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-borderless si-gplus">
+					<a href="<?php social("google"); ?>" class="social-icon si-small si-borderless si-gplus">
 						<i class="icon-gplus"></i>
 						<i class="icon-gplus"></i>
 					</a>
 
-					<a href="#" class="social-icon si-small si-borderless si-pinterest">
+					<a href="<?php social("pinterest"); ?>" class="social-icon si-small si-borderless si-pinterest">
 						<i class="icon-pinterest"></i>
 						<i class="icon-pinterest"></i>
 					</a>
-
+<!--
+/* TODO: remove this
 					<a href="#" class="social-icon si-small si-borderless si-vimeo">
 						<i class="icon-vimeo"></i>
 						<i class="icon-vimeo"></i>
@@ -212,6 +213,7 @@
 						<i class="icon-linkedin"></i>
 						<i class="icon-linkedin"></i>
 					</a>
+-->
 				</div>
 
 				<div class="clear"></div>
