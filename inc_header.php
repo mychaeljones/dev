@@ -106,7 +106,8 @@
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Our Locations</div></a>
+					<li><a href="locations.php"><div>Locations</div></a>
+<!--
 						<ul>
 							<li><a href="veterinary-hospitals.php"><div><i class="icon-stack"></i>Veterinary Hospitals</div></a></li>
 															
@@ -114,6 +115,7 @@
 																						
 							<li><a href="#"><div><i class="icon-gift"></i>Tigard</div></a></li>
 						</ul>
+-->
 					</li>
 					
 					<li><a href="#"><div>Contact Us</div></a>
