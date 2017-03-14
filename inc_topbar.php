@@ -1,5 +1,3 @@
-<?php echo $url; // for dev purposes ?>
-
 <!-- Top Bar
 ============================================= -->
 <div id="top-bar">
