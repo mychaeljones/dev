@@ -9,16 +9,17 @@
 		<div id="logo">
 			<?php 
 				if(check_for_blog() == true) {
-					echo '<a href="../../index.php" class="standard-logo" data-dark-logo="images/logo.png"><img src="../../images/logo.png" alt="Canvas Logo"></a>';
-					echo '<a href="../../index.php" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="../../images/logo@2x.png" alt="Canvas Logo"></a>';
+					echo '<a href="../../index.php" class="standard-logo" data-dark-logo="images/logo.png"><img src="../../images/logo.png" alt="Hannah The Pet Society Logo"></a>';
+					echo '<a href="../../index.php" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="../../images/logo@2x.png" alt="Hannah The Pet Society Logo"></a>';
 				} else {
-					echo '<a href="index.php" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Canvas Logo"></a>';
-					echo '<a href="index.php" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>';
+					echo '<a href="index.php" class="standard-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Hannah The Pet Society Logo"></a>';
+					echo '<a href="index.php" class="retina-logo" data-dark-logo="images/logo@2x.png"><img src="images/logo@2x.png" alt="Hannah The Pet Society Logo"></a>';
 				}
 			?>
 		</div><!-- #logo end -->
 
 		<ul class="header-extras">
+<!--
 			<li>
 				<i class="i-plain icon-email3 nomargin"></i>
 				<div class="he-text">
@@ -26,11 +27,14 @@
 					<span>info@canvas.com</span>
 				</div>
 			</li>
+-->
 			<li>
 				<i class="i-plain icon-call nomargin"></i>
 				<div class="he-text">
-					Get in Touch
-					<span>1800-1144-551</span>
+					Experiencing a Pet Emergency? 
+					<br>
+					Need Help Now?
+					<span>360.816.8000</span>
 				</div>
 			</li>
 		</ul>
