@@ -11,7 +11,7 @@
 			<div class="top-links">
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="faqs.html">FAQs</a></li>
+					<li><a href="commonly-asked-questions.php">FAQs</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="login-register.html">Login</a>
 						<div class="top-link-section">
