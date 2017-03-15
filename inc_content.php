@@ -24,6 +24,7 @@
 								Plus a lifetime of no worries.
 								</span>
 							</h2>
+
 							<p data-caption-animate="fadeInUp" data-caption-delay="200" style="font-size: 1em;">
 							   	Attend a FREE comprehensive vet exam for your Pet.
 							</p>
@@ -38,7 +39,8 @@
 							</p>
 							<p data-caption-animate="fadeInUp" data-caption-delay="1000" style="font-size: 1em;">								  
 								Start enjoying your Hannah Membership!
-							</p>					
+							</p>		
+							<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="1200">Learn More > </button>										
 						</div>
 					</div>
 				</div>
