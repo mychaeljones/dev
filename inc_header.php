@@ -28,7 +28,9 @@
 				</div>
 			</li>
 -->
+			
 			<li>
+			<a href="tel:1-360-816-8000" style="color: black;">
 				<i class="i-plain icon-call nomargin"></i>
 				<div class="he-text">
 					Experiencing a Pet Emergency? 
@@ -36,6 +38,7 @@
 					Need Help Now?
 					<span>360.816.8000</span>
 				</div>
+			</a>
 			</li>
 		</ul>
 
@@ -54,7 +57,7 @@
 				<ul>
 					<li class="current"><a href="index.html"><div>Home</div></a></li>
 					
-					<li><a href="#"><div>Explore Plans</div></a>
+					<li><a href="#"><div>Plans</div></a>
 						<ul>
 							<li><a href="healthy-dog-plans.php"><div><i class="icon-stack"></i>Healthy Dog/Puppy Plans</div></a></li>
 															
@@ -70,7 +73,7 @@
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Why Choose Hannah?</div></a>
+					<li><a href="#"><div>Why Hannah?</div></a>
 						<ul>
 							<li><a href="#"><div><i class="icon-stack"></i>All-Inclusive Coverage</div></a></li>
 
@@ -118,7 +121,7 @@
 -->
 					</li>
 					
-					<li><a href="#"><div>Contact Us</div></a>
+					<li><a href="#"><div>Contact</div></a>
 						<ul>
 							<li><a href="#"><div><i class="icon-stack"></i>Contact Form</div></a></li>
 															
@@ -128,7 +131,7 @@
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Community Involvement</div></a>
+					<li><a href="#"><div>Community</div></a>
 						<ul>
 							<li><a href="#"><div><i class="icon-stack"></i>Hannah's Helping Hands</div></a></li>
 															
