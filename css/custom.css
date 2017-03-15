@@ -5,6 +5,11 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+.header-extras {
+	margin: 20px 0 0;
+}
 
-
+.header-extras li {
+	height: 70px;
+}
 
