@@ -14,7 +14,7 @@
 
 					<div class="widget clearfix">
 
-						<img src="/images/footer-widget-logo.png" alt="" class="footer-logo">
+						<img src="/images/logo.png" alt="" class="footer-logo">
 
 						<p>HI! We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 							
@@ -105,12 +105,12 @@
 
 						<div class="col-md-6 bottommargin-sm">
 							<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-							<h5 class="nobottommargin">Total Downloads</h5>
+							<h5 class="nobottommargin">Pets Cared For</h5>
 						</div>
 
 						<div class="col-md-6 bottommargin-sm">
 							<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-							<h5 class="nobottommargin">Clients</h5>
+							<h5 class="nobottommargin">Members</h5>
 						</div>
 
 					</div>

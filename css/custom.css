@@ -13,3 +13,10 @@
 	height: 70px;
 }
 
+.portfolio-meta li span {
+	width: 175px;
+}
+
+.fbox-media img {
+	width: 140px !important;
+}

@@ -55,17 +55,28 @@
 				<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 				<ul>
-					<li class="current"><a href="index.html"><div>Home</div></a></li>
-					
-					<li><a href="#"><div>Plans</div></a>
+					<li class="current"><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>what-is-hannah.php"><div>What is Hannah?</div></a>
 						<ul>
-							<li><a href="healthy-dog-plans.php"><div><i class="icon-stack"></i>Healthy Dog/Puppy Plans</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>lifetime-membership.php"><div><i class="icon-stack"></i>Lifetime Membership</div></a></li>
+							
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>total-lifetime-care.php"><div><i class="icon-stack"></i>Total Lifetime Care</div></a></li>
+					
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>philosophy-and-oath.php"><div><i class="icon-umbrella"></i>Philosophy &amp; Oath</div></a></li>
+														
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>pet-care-model.php"><div><i class="icon-gift"></i>Hannah's Unique Pet Care Model</div></a></li>
+								
+						</ul>
+					</li>
+					
+					<li><a href="#"><div>Vet Plans</div></a>
+						<ul>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>dog-plans.php"><div><i class="icon-stack"></i>Dog Plans</div></a></li>
 															
-							<li><a href="healthy-cat-plans.php"><div><i class="icon-gift"></i>Healthy Cat/Kitten Plans</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>cat-plans.php"><div><i class="icon-gift"></i>Cat Plans</div></a></li>
 								
-							<li><a href="sick-or-injured-pet-plans.php"><div><i class="icon-umbrella"></i>Sick or Injured Pet Plans</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>sick-or-injured-pet-plans.php"><div><i class="icon-umbrella"></i>Sick or Injured Pet Plans</div></a></li>
 								
-							<li><a href="additional-services.php"><div><i class="icon-line-layout"></i>Additional Services</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>additional-services.php"><div><i class="icon-line-layout"></i>Additional Services</div></a></li>
 								
 							<li><a href="#"><div><i class="icon-line-columns"></i>Inquire Online</div></a></li>
 
@@ -75,21 +86,19 @@
 					
 					<li><a href="#"><div>Why Hannah?</div></a>
 						<ul>
-							<li><a href="#"><div><i class="icon-stack"></i>All-Inclusive Coverage</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>coverage-comparison.php"><div><i class="icon-stack"></i>Compare to Pet Insurance</div></a></li>
 
-							<li><a href="#"><div><i class="icon-stack"></i>The Hannah Experience</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>coverage-comparison.php"><div><i class="icon-stack"></i>Compare to Wellness Plans</div></a></li>
+							
+							<li><a href="#"><div><i class="icon-stack"></i>Commonly Asked Questions</div></a></li>
 															
-							<li><a href="#"><div><i class="icon-gift"></i>Lifetime Membership</div></a></li>
-								
-							<li><a href="#"><div><i class="icon-umbrella"></i>Total Lifetime Care</div></a></li>
-								
 							<li><a href="#"><div><i class="icon-line-layout"></i>Reviews</div></a></li>
 						</ul>
 					</li>
 
-					<li><a href="#"><div>Our Services</div></a>
+					<li><a href="#"><div>Vet Services</div></a>
 						<ul>
-							<li><a href="wellness-care.php"><div><i class="icon-stack"></i>Wellness Care</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>wellness-care.php"><div><i class="icon-stack"></i>Wellness Care</div></a></li>
 															
 							<li><a href="#"><div><i class="icon-gift"></i>Emergency Care</div></a></li>
 								
@@ -109,7 +118,7 @@
 						</ul>
 					</li>
 					
-					<li><a href="locations.php"><div>Locations</div></a>
+					<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>locations.php"><div>Locations</div></a>
 <!--
 						<ul>
 							<li><a href="veterinary-hospitals.php"><div><i class="icon-stack"></i>Veterinary Hospitals</div></a></li>
@@ -138,6 +147,8 @@
 							<li><a href="#"><div><i class="icon-gift"></i>Hannah Friends Group</div></a></li>
 						</ul>
 					</li>
+					
+					<li><a href="/blog/index.php"><div>Blog</div></a>
 				</ul>
 
 				<!-- Top Search

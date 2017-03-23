@@ -467,7 +467,8 @@ var SEMICOLON = SEMICOLON || {};
 			if( $lightboxAjaxEl.length > 0 ) {
 				$lightboxAjaxEl.magnificPopup({
 					type: 'ajax',
-					closeBtnInside: false,
+					closeOnBgClick: false,
+					closeBtnInside: true,
 					callbacks: {
 						ajaxContentAdded: function(mfpResponse) {
 							SEMICOLON.widget.loadFlexSlider();
