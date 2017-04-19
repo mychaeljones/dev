@@ -21,7 +21,7 @@
 
 	<!-- Page Title
 	============================================= -->
-	<section id="page-title">
+	<section id="page-title" class="topmargin">
 
 		<div class="container clearfix">
 			<h1>Wellness Care</h1>
@@ -47,11 +47,15 @@
 					<div class="col_one_third nobottommargin">
 
 						<ul class="sidenav">
-							<li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>Responsive Layout<i class="icon-chevron-right"></i></a></li>
-							<li><a href="#snav-content2"><i class="icon-magic"></i>Retina Ready Display<i class="icon-chevron-right"></i></a></li>
-							<li><a href="#snav-content3"><i class="icon-tint"></i>Unlimited Color Options<i class="icon-chevron-right"></i></a></li>
-							<li><a href="#snav-content4"><i class="icon-gift"></i>Bootstrap 3.1 Compatible<i class="icon-chevron-right"></i></a></li>
-							<li><a href="#snav-content5"><i class="icon-adjust"></i>Light &amp; Dark Scheme<i class="icon-chevron-right"></i></a></li>
+							<li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>Wellness Care<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content2"><i class="icon-magic"></i>Emergency Care<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content3"><i class="icon-tint"></i>Dentals<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content4"><i class="icon-gift"></i>Spay &amp; Neuter<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content5"><i class="icon-adjust"></i>Radiation &amp; Ultrasound<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content6"><i class="icon-adjust"></i>Surgeries<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content7"><i class="icon-adjust"></i>Pharmacy<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content8"><i class="icon-adjust"></i>Behavior Support<i class="icon-chevron-right"></i></a></li>
+							<li><a href="#snav-content9"><i class="icon-adjust"></i>Training<i class="icon-chevron-right"></i></a></li>
 						</ul>
 
 					</div>
@@ -59,31 +63,97 @@
 					<div class="col_two_third col_last nobottommargin">
 
 						<div id="snav-content1">
-							<h3>Ultra Responsive Template</h3>
-							<img class="alignright img-responsive" src="images/landing/responsive.png" alt="">
+							<h3>Wellness Care</h3>
+							<img class="alignright img-responsive" src="images/wellness/wellness.jpg" alt="">
+							<p>Along with your careful observations at home, regular wellness exams from our medical team at Hannah the Pet Society are the best way to keep your Hannah Pet happy and healthy.
 
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ex, inventore, tenetur, repellat ipsam soluta libero amet nam aspernatur perspiciatis quos praesentium et debitis ea odit enim illo aliquid eligendi numquam neque. Ipsum, voluptatibus, perspiciatis a quam aliquid cumque cupiditate id ipsa tempora eveniet. Cupiditate, necessitatibus, consequatur odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, vitae, laboriosam libero nihil labore hic modi? Odit, veritatis nulla molestiae!
+Wellness Exams for Dogs and Cats
+During your Pet’s wellness exam our team will:
+·   Obtain a medical history and check your Pet’s weight and vital signs
+·   Perform a complete physical examination and dental evaluation
+·   Protect your Pet from infectious diseases through a personalized approach based on the age, health, exposure and environment of your Pet
+·   Screen for the presence of parasites in blood and stool
+·   Recommend safe medications to treat and prevent parasites
+·   Discuss your Pet’s nutritional needs and behavioral issues
+
+Preparing Your Pet for Their Visit
+For the safety of your Pet and the other Members and Pets, please keep dogs on a leash or in a secure carrier. For the safety of your cat, they should be transported in a secure carrier. You can help your cat become comfortable with the carrier placing it in a room where they spend a lot of time.
+For questions about our canine and feline wellness exams or to schedule an appointment for your Pet, please call us at 360-816-8000.</p>
 						</div>
 
 						<div id="snav-content2">
-							<h3>Retina Ready Display</h3>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatem reprehenderit natus facilis id deserunt iusto incidunt cumque odit molestias iste dolor eum esse soluta facere quidem minima in voluptate explicabo ducimus alias ratione aut molestiae omnis fuga labore quod optio modi voluptatum nemo suscipit porro maxime ex. Maiores, ratione eligendi labore quaerat veniam laborum nam rem delectus illum aspernatur quas sequi animi quae nulla alias hic inventore ex perspiciatis nisi consequatur enim a aut dolorum modi quod perferendis dicta impedit magni placeat repellat. Soluta, dicta, dolores, reiciendis, eum accusamus esse et debitis rem fugit fugiat dignissimos pariatur sint quod laborum autem. Nulla, ducimus, culpa, vel esse unde sapiente expedita corrupti consectetur veritatis quas autem laborum mollmquam amet eius. Numquam, ad, quaerat, ab, deleniti rem quae doloremque tenetur ea illum hic amet dolor suscipit porro ducimus excepturi perspiciatis modi praesentium voluptas quos expedita provident adipisci dolorem! Aliquam, ipsum voluptatem et voluptates impedit ab libero similique a. Nisi, ea magni et ab voluptatum nemo numquam odio quis libero aspernatur architecto tempore qui quisquam saepe corrupti necessitatibus natus quos aliquid non voluptatibus quod obcaecati fugiat quibusdam quidem inventore quia eveniet iusto culpa incidunt vero vel in accusamus eum. Molestiae nihil voluptate molestias illum eligendi esse nesciunt.
+							<h3>Emergency Care</h3>
+							<img class="alignright img-responsive" src="images/wellness/emergency.jpg" alt="">
+							<p>Hannah the Pet Society provides emergency services 24 hours a day, 365 days a year. After hours, our trained medical team will assess and triage emergency cases to provide the best possible care, day or night. Complicated medical cases are monitored throughout the night to provide the best and most immediate care.</p>
 						</div>
 
 						<div id="snav-content3">
-							<img class="alignleft img-responsive" src="http://www.w3schools.com/tags/colormap.gif" alt="">
-							<h3>Unlimited Color Options</h3>Dolor aperiam modi aliquam dolores consequatur error commodi ad eius incidunt! Libero, odio incidunt ullam sunt fugiat? Laboriosam, perferendis, debitis, harum soluta iste eos sunt odit architecto porro eveniet sint optio nihil animi. Laudantium, quam, culpa, velit molestias exercitationem reprehenderit enim distinctio aliquam aut ex numquam sequi assumenda veritatis fuga voluptatum. Magni, voluptates adipisci unde sapiente eligendi ea maxime tempora pariatur ipsa.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, aspernatur, saepe, quidem animi hic rem libero earum fuga voluptas culpa iure qui accusantium ab quae dolorum laborum quia repellat fugit aut minima molestias placeat mollitia doloribus quibusdam consectetur officia nesciunt ad. Ab, quod ipsum commodi assumenda doloribus possimus sed laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							<img class="alignleft img-responsive" src="images/wellness/dental.jpg" alt="">
+							<h3>Dentals</h3>
+							<p>Dogs and cats need regular dental care - it’s critical for their long-term health. Even with consistent brushing to remove plaque, Pets periodically require more thorough cleaning and procedures to treat periodontal disease, fractured teeth or oral masses. For the safety of your Pet and to provide the best care possible, dental procedures always take place under general anesthesia. For your Pet’s comfort, we utilize the most current pain-control protocols before, during, and after the procedure.</p>
+
+							<ul>
+								<strong>Our professional teeth cleaning and advanced dental care for Pets includes:</strong>
+								<li>Oral/dental exams																				  </li>
+								<li>Comprehensive dental cleanings, polishing and fluoride treatments								  </li>
+								<li>Minor oral surgery including extractions, fistula repairs and removal of oral tumors			  </li>
+								<li>Comprehensive pain management before, during and after all oral procedures						  </li>
+								<li>Anesthesia monitoring by specially-trained Pet nurses with the aid of digital monitoring equipment</li>
+								<li>Home dental care instructions																	  </li>
+							</ul>
+
+							<p>At-Home Dental Care
+Regular home dental care will prevent the buildup of plaque on your Pet’s teeth. Brushing your Pet’s teeth daily significantly reduces the buildup of plaque on the teeth. Call us today to learn more - we can help you find the option that works best for you and your Pet.</p>
 						</div>
 
 						<div id="snav-content4">
-							<img class="alignleft img-responsive" src="images/landing/bootstrap.png" alt="">
-							<h3>Bootstrap v3.2.0 Compatiable</h3>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, nostrum, dolores id quo nam repudiandae ad culpa architecto minima nemo eaque soluta nulla laborum neque provident saepe facilis expedita numquam quas alias in perferendis accusamus ipsam blanditiis sit voluptatem temporibus vero error veritatis repellat eos reiciendis repellendus quam. Officia dicta ipsam nostrum aperiam. Dolor, expedita enim modi nostrum commodi sint architecto aliquam aut mollitia repellendus deserunt quaerat aspernatur aperiam voluptatibus consequatur rerum consequuntur.
+							<img class="alignleft img-responsive" src="images/wellness/neuter.jpg" alt="">
+							<h3>Spay &amp; Neuter</h3>
+							
 						</div>
 
 						<div id="snav-content5">
-							<h3>Light &amp; Dark Scheme Available</h3>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, temporibus, maxime, laudantium quidem sapiente deserunt error rerum illum explicabo voluptate velit tempora cupiditate reprehenderit consequuntur nemo in et blanditiis soluta tempore perspiciatis at atque excepturi culpa facere sequi impedit cumque illo molestias saepe eveniet ducimus fugiat reiciendis unde. Modi, at laboriosam ex velit commodi officiis! Neque, consequatur, modi, nulla, voluptatem quibusdam incidunt minus dolores repellat nihil consectetur ducimus aliquid. Eaque, tempora voluptatum accusantium expedita obcaecati magnam voluptates consequatur ut harum rem dolor id error. Officia, repudiandae, eos, quibusdam porro eius esse cupiditate non fugit dignissimos delectus et tempora sequi fugiat quo voluptatem temporibus vel obcaecati? Laboriosam, quis obcaecati quas veniam repellendus officiis et quos velit id natus mollitia dacilis ipsum et perspiciatis officia iste cupiditate ducimus nisi consequuntur excepturi dolorum. Sint, architecto, cumque facere officia harum dicta perferendis inventore excepturi sequi explicabo provident omnis dolore quasi fugit molestiae atque id consectetur reprehenderit laborum beatae consequatur similique.
+							<img class="alignright img-responsive" src="images/wellness/radiology.jpg" alt="">							
+							<h3>Radiology &amp; Ultrasound</h3>
+							<p>Radiology (you might just call it X-ray!) is an imaging tool that our veterinarians use to examine your Pet’s cardiopulmonary, gastrointestinal, reproductive and urinary systems. We use radiology to diagnose broken bones, locate foreign objects within the body, and screen for cancer and organ abnormalities.</p>
+
+							<p>An ultrasound is a non-invasive test that allows our veterinarians to visualize the internal organs and to aid in guiding needles for biopsy. With ultrasound, we can quickly locate and assess tumors, cysts, stones, inflammation and disease within most organ systems.</p>
+						</div>
+
+						<div id="snav-content6">
+							<img class="alignright img-responsive" src="images/wellness/surgeries.jpg" alt="">							
+							<h3>Surgery</h3>
+							<p>Hannah the Pet Society is equipped with state-of-the-art surgical suites and veterinarians with the expertise to perform a wide range of surgical procedures. Our veterinarians perform general surgical procedures such as spay/neuter and growth removal, as well as advanced orthopedic and soft tissue surgery.
+
+Soft Tissue
+Soft tissue surgery is associated with the skin and organs. Soft tissue surgery includes tumor removal, bladder surgery, intestinal foreign body removal, splenectomy, Caesarean section surgery for complicated pregnancies, spay and neuter procedures, and many more.
+
+Orthopedic
+Hannah veterinarians perform numerous orthopedic procedures including: ACL repair, luxating patella surgery, fracture repair via bone pins, plates and external fixation, amputations, and femoral head osteotomy (FHO). We also work with local surgical specialists to provide the best possible outcome for your Pet.
+
+Patient Monitoring
+You can rely on Hannah's medical team to provide quality, compassionate care for your dog or cat, every step of the way. We monitor your Pet’s vital signs with advanced equipment and provide a pain management plan to maximize the level of comfort for your Pet before, during, and after his or her procedure. Our trained veterinarians and medical team are here to not only provide the best in surgical care, but offer support and guidance for you during the entire process.</p>
+						</div>
+
+						<div id="snav-content7">
+							<img class="alignright img-responsive" src="images/wellness/pharmacy.jpg" alt="">							
+							<h3>Pharmacy</h3>
+							<p>Hannah the Pet Society has a fully stocked in-house pharmacy to keep your Pet healthy. We carry medications that support everything from Pet wellness care to acute and critical care. We carry flea, tick, and heartworm preventives, skin and coat care products, nutritional supplements and dental care products to help keep your Pet healthy.
+
+Prescription Refills
+Hannah's pharmacy makes it easy to refill your Pet’s prescription medications! Please call ahead so our medical team can provide quick and easy refills for your convenience. Our trained medical team will also review dosing instructions and information about potential product interactions or side effects that may affect your Pet.</p>
+						</div>
+
+						<div id="snav-content8">
+							<img class="alignright img-responsive" src="images/wellness/behavior.jpg" alt="">							
+							<h3>Behavior Support</h3>
+							<p>Behavior support is truly what sets Hannah the Pet Society apart from traditional veterinary practices.  Hannah has the experience and expertise to help you treat behavioral problems. Pets have a wide variety of behavioral issues ranging from simple housetraining problems to severe anxiety and aggression issues.  Behavior problems can seriously jeopardize the joy of the human-Pet bond and may be the biggest problem many Pet-Parents face with their Pets.  At Hannah the Pet Society, we can help you eliminate your Pet’s behavior problems through specialized training methods and appropriate use of medications.</p>
+						</div>
+
+						<div id="snav-content9">
+							<img class="alignright img-responsive" src="images/wellness/training.jpg" alt="">							
+							<h3>Training</h3>
+							<p>In addition to Hannah Pet behavior experts, you also have access to experienced trainers who can teach you AND your Hannah Pet some new tricks and behaviors.  Training classes come in all shapes, sizes and species!  Hannah the Pet Society has complete training programs starting with the basics and graduating through the Canine Good Citizenship program.</p>
 						</div>
 
 					</div>

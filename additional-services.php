@@ -32,8 +32,8 @@
 						<div class="fbox-icon">
 							<a href="#"><i class="icon-screen i-alt"></i></a>
 						</div>
-						<h3>Responsive Layout</h3>
-						<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+						<h3>Food Delivery</h3>
+						<p>Receive premium Pet food delivered at your doorstep with no delivery costs. <a href="nutrition.php">Learn more</a></p>
 					</div>
 				</div>
 
@@ -42,8 +42,8 @@
 						<div class="fbox-icon">
 							<a href="#"><i class="icon-eye i-alt"></i></a>
 						</div>
-						<h3>Retina Graphics</h3>
-						<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+						<h3>Parasite Control</h3>
+						<p>Choosing flea control for your Pet can be confusing.  Our medical team will carefully recommend and help you select the correct prevention for your Pet.  We offer a full range of preventive options to protect your Pet against fleas, ticks, heartworms and other potentially deadly parasites.  You can purchase these products at a significant savings, as needed.  If you want to include it in your monthly plan so that you have no financial surprises, add it to your TLC plan.</p>
 					</div>
 				</div>
 
@@ -52,8 +52,8 @@
 						<div class="fbox-icon">
 							<a href="#"><i class="icon-beaker i-alt"></i></a>
 						</div>
-						<h3>Powerful Performance</h3>
-						<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+						<h3>Pet Limo</h3>
+						<p>Do you need assistance transporting your Pet to our veterinary hospital?  Hannah's Pet limo service provdes convenience and peace of mind with round trip service to your home.</p>
 					</div>
 				</div>
 
@@ -64,8 +64,8 @@
 						<div class="fbox-icon">
 							<a href="#"><i class="icon-stack i-alt"></i></a>
 						</div>
-						<h3>Premium Sliders</h3>
-						<p>Canvas included 20+ custom designed Slider Pages with Premium Sliders like Layer, Revolution, Swiper &amp; others.</p>
+						<h3>Grooming</h3>
+						<p>Whether your Pet needs a quick bath and brush, or full groom and pawdicure, Hannah offers an array of grooming servies.  If your Pet needs grooming multiple times per year, consider adding it to your plan.</p>
 					</div>
 				</div>
 

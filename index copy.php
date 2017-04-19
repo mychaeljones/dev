@@ -25,144 +25,214 @@
 	<!-- Content
 	============================================= -->
 	
-	<!-- Slider Hero Unit
+	<!-- Hero Unit
 	============================================= -->
-<!--
-	<section id="slider" class="slider swiper_wrapper clearfix topmargin-sm hidden-sm hidden-xs">
+	
+	<section id="slider" class="slider swiper_wrapper clearfix topmargin-sm">
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
-					<!-- Slide 1 
+					<!-- Slide 1 -->
 					<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/ss1.jpg'); background-size:cover;">
 						<div class="container clearfix">
 							<div class="slider-caption slider-caption-right">
 								
 								<h2 data-caption-animate="fadeInUp" style="margin-bottom: 10px; font-size:2.1em;">
-									Vet care for one low monthly fee.
+									Vetcare for one low monthly fee.
 									<span style = "display: block; font-size: .4em;">
 
 									</span>
 								</h2>
 								<a href="form.php" data-lightbox="ajax">
 									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
-										Get a Quote > 
+									Get a Quote > 
 									</button>		
 								</a>
 								<a href="#learn" data-scrollto="#learn">
-									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
-										Learn More >
-									</button>	
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">Learn More ></button>	
 								</a>
 							</div>
 						</div>
-					</div>					
+					</div>
+					
+					<!-- Slide 2 -->
+					<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/ss2.jpg'); background-size:100%; background-position-y: 0px;">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-left">
+								
+								<h2 data-caption-animate="fadeInUp" style="margin-bottom: 10px; font-size:2.1em;">
+									<span style = "display: block; font-size: .7em;">
+									Every Hannah plan includes veterinary care, training and behavior support for an affordable monthly fee.
+									</span>
+								</h2>
+								<a href="form.php" data-lightbox="ajax">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
+									Get a Quote > 
+									</button>		
+								</a>
+								<a href="#learn" data-scrollto="#learn">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">Learn More ></button>	
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Slide 3 -->
+					<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/ss3.jpg'); background-size:cover;">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-right">
+								
+								<h2 data-caption-animate="fadeInUp" style="margin-bottom: 10px; font-size:2.1em;">
+									<span style = "display: block; font-size: .4em;">
+									Comprehensive vet care and resources to keep your Pet healthy and happy for a lifetime.
+									</span>
+								</h2>
+								<a href="form.php" data-lightbox="ajax">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
+									Get a Quote > 
+									</button>		
+								</a>
+								<a href="#learn" data-scrollto="#learn">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">Learn More ></button>	
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Slide 4 -->
+					<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/ss4.jpg'); background-size:cover;">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-right">
+								
+								<h2 data-caption-animate="fadeInUp" style="margin-bottom: 10px; font-size:2.1em;">
+									Your neighborhood vet clinic and more. 
+									<span style = "display: block; font-size: .4em;">
+									
+									</span>
+								</h2>
+								<a href="form.php" data-lightbox="ajax">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
+									Get a Quote > 
+									</button>		
+								</a>
+								<a href="#learn" data-scrollto="#learn">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">Learn More ></button>	
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 	</section>
--->
 	
-	<div class="dark noborder topmargin-sm hpBackground">
-		<div class="container center clearfix">
-
-			<div class="emphasis-title hero-heading">
-				
-				<h2><span style="display: block; font-size: .6em;">Hannah The Pet Society</span> Vet care for one low monthly fee.</h2>
-				
-				<div class="center">
-				
-					<a href="form.php" data-lightbox="ajax">
-						<button class="button" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
-						Get a Quote > 
-						</button>		
-					</a>
-					<a href="#learn" data-scrollto="#learn">
-						<button class="button" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
-						Learn More >
-						</button>	
-					</a>
-				</div>
-				
-			</div>
-
-		</div>
-	</div>
+	
+	
 	
 	<section id="content">
-		<div class="nobottommargin">		
+		<div class="content-wrap nobottommargin">		
 			<div class="container clearfix">
+		
+
+		
+				<!-- Hannah Logo and Making Quality Pet Ownership
+				================================================
+				<div class="heading-block center fancy-title nobottomborder bottommargin-lg topmargin-sm">
+<!-- 					<h1 style="margin-bottom:15px;"><img src="/images/logo.jpg" alt="Hannah The Pet Society" width="300px"></h1>
+					<h2>A unique <span>Pet healthcare</span> concept that provides comprehensive veterinary and behavioral care for one low monthly fee.</h2>
+				</div>
+				-->
 				
-				<!-- Welcome to Hannah 
+				
+				<!-- Hannah Is ...
 				================================================ -->
 				<div class="topmargin-sm">
-					<div class="col_three_fifth nobottommargin" id="learn">
-						<div class="heading-block fancy-title nobottomborder topmargin title-bottom-border">
-							<h3>
-								Welcome to <span>Hannah</span>
-							</h3>
-						</div>
-
-						<p>Hannah is a unique Pet healthcare model that provides comprehensive veterinary and behavioral care services. For one predictable, low monthly fee, our members enjoy the peace of mind that comes with having a team of Veterinary Professionals caring for their Pet Families.</p>
-						
-						<div class="topmargin"><!-- Member benefits -->
-							<h4 class="center">Hannah Veterinary Care Plans Include</h4>
-						
-							<div class="col_one_third">
-								<div class="center mobileServices">
-									<img src="images/icons/hp/heartcross.png" alt="Routine and Preventive Care">
-									<br>
-									<caption>Routine and Preventive Care</caption>
+					<div class="bottommargin">
+	
+					<a href="form.php" data-lightbox="ajax">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
+									Get a Quote > 
+									</button>		
+								</a>
+								<a href="#learn" data-scrollto="#learn">
+									<button class="button fright" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">Learn More ></button>	
+								</a>
+	
+						<div class="col_three_fifth nobottommargin" id="learn">
+							<div class="heading-block fancy-title nobottomborder topmargin-sm title-bottom-border">
+								<h4>
+									Welcome to <span>Hannah</span>
+								</h4>
+							</div>
+	
+							<p>
+								Hannah is a unique Pet healthcare model that provides comprehensive veterinary and behavioral care services. For one predictable, low monthly fee, our members enjoy the peace of mind that comes with having a team of Veterinary Professionals caring for their Pet Families. 
+							</p>
+							
+							<div class="topmargin"><!-- Member benefits -->
+								<h5 class="center">Hannah Veterinary Care Plans Include</h5>
+							
+								<div class="col_one_third">
+									<div class="center">
+										<img src="images/icons/hp/heartcross.png" alt="Routine and Preventive Care">
+										<br>
+										<caption>Routine and Preventive Care</caption>
+									</div>
+									
+									<div class="center topmargin-sm">
+										<img src="images/icons/hp/dental.png" alt="Dental Care">
+										<br>
+										<caption>Dental Care</caption>
+									</div>
 								</div>
 								
-								<div class="center topmargin-sm mobileServices">
-									<img src="images/icons/hp/dental.png" alt="Dental Care">
-									<br>
-									<caption>Dental Care</caption>
-								</div>
-							</div>
-							
-							<div class="col_one_third">
-								<div class="center mobileServices">
-									<img src="images/icons/hp/crossheart.png" alt="Accidental and Emergency Care">
-									<br>
-									<caption>Accident and Emergency Care</caption>									
+								<div class="col_one_third">
+									<div class="center">
+										<img src="images/icons/hp/crossheart.png" alt="Accidental and Emergency Care">
+										<br>
+										<caption>Accident and Emergency Care</caption>									
+									</div>
+									
+									<div class="center topmargin-sm">
+										<img src="images/icons/hp/dogtraining.png" alt="Training">
+										<br>
+										<caption>Obedience Training</caption>
+									</div>
 								</div>
 								
-								<div class="center topmargin-sm mobileServices">
-									<img src="images/icons/hp/dogtraining.png" alt="Training">
-									<br>
-									<caption>Obedience Training</caption>
+								<div class="col_one_third col_last">
+									<div class="center">
+										<img src="images/icons/hp/surgeon.png" alt="Surgical Care">
+										<br>
+										<caption>Surgical Care</caption>
+									</div>
+																	
+									<div class="center topmargin-sm">
+										<img src="images/icons/hp/cat.png" alt="Behavior Support">
+										<br>
+										<caption>Behavior Support</caption>
+									</div>
 								</div>
-							</div>
+							</div><!-- end member benefits -->
 							
-							<div class="col_one_third col_last">
-								<div class="center mobileServices">
-									<img src="images/icons/hp/surgeon.png" alt="Surgical Care">
-									<br>
-									<caption>Surgical Care</caption>
-								</div>
-																
-								<div class="center topmargin-sm mobileServices">
-									<img src="images/icons/hp/cat.png" alt="Behavior Support">
-									<br>
-									<caption>Behavior Support</caption>
-								</div>
-							</div>
-						</div><!-- end member benefits -->
+							<div class="clearfix"></div>
+							
+							<p class="fleft">
+								<a href="#">Learn more about how Hannah works.</a>
+								<br>
+								<a href="#">Learn why Hannah is a better healthcare alternative for your Pet.</a>
+							</p>
+						</div>						
 						
-						<div class="clearfix"></div>
-						
-						<p class="fleft">
-							<a href="#">Learn more about how Hannah works.</a>
-							<br>
-							<a href="#">Learn why Hannah is a better healthcare alternative for your Pet.</a>
-						</p>
-					</div>						
-					
-					<div class="col_two_fifth topmargin col_last center">
-						<img src="/images/team/3.jpg" alt="blah">
-					</div>		
-				</div>			
+						<div class="col_two_fifth topmargin-lg col_last center">
+							<img src="/images/team/3.jpg" alt="blah">
+<!--
+							<caption>
+								Dr. Baltimore examining Jeb at Hannah East
+							</caption>
+-->
+						</div>					
+					</div>
+				</div><!-- end What is hannah? -->
 			</div>
-
 
 
 			<div class="container clearfix topmargin-sm">
@@ -286,7 +356,7 @@
 		</div><!-- end content-wrap -->
 
 		<div class="content" style="background-color: #ffde6c;">		
-			<div class="container clearfix topmargin">	
+			<div class="container clearfix">	
 				<div class="promo nopadding bottommargin topmargin">
 					<i class="i-plain i-xlarge icon-phone"></i>
 					<h3>Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or Email us at <span><a href="mailto:MembershipTeam@HannahSociety.com">MembershipTeam@HannahSociety.com</a></span></h3>

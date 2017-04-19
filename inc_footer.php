@@ -10,29 +10,45 @@
 
 			<div class="col_two_third">
 
-				<div class="col_one_third">
+				<div class="col_two_third">
 
-					<div class="widget clearfix">
+					<div class="widget clearfix" id="footer-logo">
 
-						<img src="/images/logo.png" alt="" class="footer-logo">
-
-						<p>HI! We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-							
-						<div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
-							<address>
-								<strong>Headquarters:</strong><br>
-								795 Folsom Ave, Suite 600<br>
-								San Francisco, CA 94107<br>
+						<img src="/images/logo_white.png" alt="" class="footer-logo" width="233px" style="margin: 0 auto;">
+													
+						<div class="topmargin-sm center"  style="background-color:white; padding-top:10px; padding-bottom:10px;">
+							<address class="col_half">
+								<strong>Hannah East</strong><br>
+								10526 SE Washington St A-103<br>
+								Portland, Or 97216<br>
 							</address>
-							<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-							<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-							<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+							<address class="col_half col_last">
+								<strong>Hannah West</strong><br>
+								10164 SW Washington Square Rd<br>
+								Portland, Or 97223<br>
+							</address>
+							
+							<div class="clear"></div>
+
+							<div class="full notopmargin">
+								<strong>Phone</strong>
+								<br>
+								<a href="tel:(360)816-8000">(360) 816-8000</a>
+								&nbsp; • &nbsp;
+								<a href="tel:(503)905-4696">(503) 905-4696</a>
+								<br>
+								<strong>Email</strong>
+								<br>
+								<a href="mailto:MembershipTeam@HannahSociety.com">MembershipTeam@HannahSociety.com</a>
+							</div>
+
 						</div>
 
 					</div>
 
 				</div>
 
+<!--
 				<div class="col_one_third">
 
 					<div class="widget widget_links clearfix">
@@ -52,6 +68,7 @@
 					</div>
 
 				</div>
+-->
 
 				<div class="col_one_third col_last">
 
@@ -104,13 +121,17 @@
 					<div class="row">
 
 						<div class="col-md-6 bottommargin-sm">
-							<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-							<h5 class="nobottommargin">Pets Cared For</h5>
+							<div class="counter counter-small">
+								<h5 class="nobottommargin">Over</h5>
+								<span data-from="50" data-to="6000" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+							<h5 class="nobottommargin">Portland Area Hannah Pets</h5>
 						</div>
 
 						<div class="col-md-6 bottommargin-sm">
-							<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-							<h5 class="nobottommargin">Members</h5>
+							<h5 class="nobottommargin">More than</h5>
+							
+							<div class="counter counter-small"><span data-from="100" data-to="75000" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+							<h5 class="nobottommargin">Portland Vet Hospital Visits</h5>
 						</div>
 
 					</div>
@@ -192,28 +213,7 @@
 						<i class="icon-pinterest"></i>
 						<i class="icon-pinterest"></i>
 					</a>
-<!--
-/* TODO: remove this
-					<a href="#" class="social-icon si-small si-borderless si-vimeo">
-						<i class="icon-vimeo"></i>
-						<i class="icon-vimeo"></i>
-					</a>
 
-					<a href="#" class="social-icon si-small si-borderless si-github">
-						<i class="icon-github"></i>
-						<i class="icon-github"></i>
-					</a>
-
-					<a href="#" class="social-icon si-small si-borderless si-yahoo">
-						<i class="icon-yahoo"></i>
-						<i class="icon-yahoo"></i>
-					</a>
-
-					<a href="#" class="social-icon si-small si-borderless si-linkedin">
-						<i class="icon-linkedin"></i>
-						<i class="icon-linkedin"></i>
-					</a>
--->
 				</div>
 
 				<div class="clear"></div>
