@@ -57,22 +57,83 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Text Colors */
-.tBlue { color: #13b5ea; }
-.tDarkBlue { color: #00467f; }
-.tYellow { color: #ffde6c; }
-.tOrange { color: #f58025; }
-.tRed { color: #98002e; }
-.tGreen { color: #5cb85c; }
-.tBlack { color: #000000; }
+.tBlue { color: #13b5ea !important; }
+.tDarkBlue { color: #00467f !important; }
+.tYellow { color: #ffde6c !important; }
+.tOrange { color: #f58025 !important; }
+.tRed { color: #98002e !important; }
+.tGreen { color: #5cb85c !important; }
+.tBlack { color: #000000 !important; }
+.tWhite { color: #ffffff !important; }
 
 /* Background Colors */
+.bgcolor-2 { background-color: #00467f; }
+.bgColorLight { background-color: rgba(51, 122, 183, 0.10); }
 .bgBlue { background-color: #13b5ea; }
 .bgDarkBlue { background-color: #00467f; }
 .bgYellow { background-color: #ffde6c; }
 .bgOrange { background-color: #f58025; }
 .bgRed { background-color: #98002e; }
-.bgGreen { background-color: #5cb85c }
+.bgGreen { background-color: #5cb85c; }
+.bgWhite { background-color: #ffffff; }
+
+
+
+/* TABLES
+========================================= */
+/* Table Colors */
+.table .success { color: #2cd22f; }
+.table .notIncluded { color: #ec3b00; }
+
+.petCareTable td:nth-child(2) { background-color: rgb(255, 242, 195); }
+.petCareTable td:nth-child(3) { background-color: rgba(243, 0, 0, 0.11); }
+.petCareTable td:nth-child(4) { background-color: rgb(247, 172, 148); }
+.bgBlueTable, .petCareTable td:nth-child(5) { background-color: rgba(19, 181, 234, 0.14) !important; }
+
+/*
+#coverage td:nth-child(2) { background-color: rgba(243, 0, 0, 0.11); }
+#coverage td:nth-child(4) { background-color: rgb(255, 242, 195); }
+#coverage td:nth-child(3) { background-color: rgb(247, 172, 148); }
+*/
+
+#coverage td:nth-child(5) { background-color: rgba(19, 181, 234, 0.14); }
+
+/* Coverage Table Colors */	
+.bgYellowTable { background-color: rgba(255, 222, 108, 0.41); }
+.bgRedTable { background-color: rgba(236, 59, 0, 0.42); }
+
+#coverage > tbody > tr > td { text-align: center; }
+#coverage > tbody > tr > td > i { float: none !important; }
+
+/* Coverage Tabs */
+.coverageTab > li {
+	list-style: none;
+}
+
+.coverageTab > li:before {
+	content: "\2022 \2002";
+}
 	
+/* Dog and Cat Care Tables */
+#dogCare span, #catCare span {
+	display: block;
+	font-weight:500;
+	font-size: .8em;
+}
+
+#dogCare td, #catCare td {
+	text-align: center;
+}
+
+#dogCare thead th, #catCare thead th {
+	text-align: center;
+}
+
+
+
+
+
+
 /* Footer Colors */
 .dark .widget h4 { color: #f58025; }
 .dark .form-control:not(.not-dark), .dark .sm-form-control:not(.not-dark) { background-color: #fff; }
@@ -81,6 +142,15 @@ h1, h2, h3, h4, h5, h6 {
 /* Page Titles */
 #page-title {
 	background-color: rgba(51, 122, 183, 0.10);
+}
+
+.paws {
+	font-size:1.2em; 
+	font-weight:300;
+}
+
+.paws li {
+	padding-bottom: 10px;
 }
 
 .paws-bg {
@@ -107,20 +177,6 @@ h1, h2, h3, h4, h5, h6 {
     content: "+";
 }
 
-
-/* Table Colors */
-.table .success {
-	color: #2cd22f;
-}
-
-.table .notIncluded {
-	color: #ec3b00;
-}
-
-td:nth-child(5) {
-    background-color: rgba(44, 210, 47, 0.16);
-}
-
 /* Header Remove Borders */
 #header,
 #top-bar,
@@ -139,6 +195,10 @@ h1, h2, h3, h4, h5,
 	color: #00467f;
 }
 
+/* Top Navigation Link Hover */
+.top-links li:hover {
+    background-color: #13b5ea;
+}
 
 
 
@@ -148,10 +208,30 @@ h1, h2, h3, h4, h5,
 	text-shadow: 1px 1px 1px #98002e;
 }
 
+.paws {
+	list-style-image: url("/images/icons/paw.svg");
+}
 
 
+/* UL LISTS */
+.philosophyList {
+	margin: 0 auto;
+    width: 300px;
+    font-size: 1.5em;
+}
 
+.teen {
+	font-family: teen;
+}
 
+/* Padding and Margins */
+.padding {
+	padding: 30px;
+}
+
+.bottommargin-100 {
+	margin-bottom: 100px;
+}
 
 
 /* what-is-hannah.php */
@@ -374,7 +454,7 @@ h1, h2, h3, h4, h5,
 
 /* Lifetime Membership */
 .portfolio-item {
-	width: 50%;
+	width: 33%;
 }
 		
 #sidenav-info {
@@ -458,7 +538,45 @@ h1, h2, h3, h4, h5,
 		font-size: 45px;
 	}
 
+	.wideAt991 {
+		width: 100%;
+	}
 }
 
 
 
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto;
+}
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block;
+}
+
+
+/* Extra Sizes */
+.bottommargin-xs {
+	margin-bottom: 10px !important;
+}
+
+.bottommargin-xxs {
+	margin-bottom: 5px !important;
+}
+
+.topmargin-xs {
+	margin-top: 10px !important;
+}
+
+.topmargin-xxs {
+	margin-top: 5px !important;
+}

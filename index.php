@@ -19,9 +19,6 @@
 	#***************************************
 ?>
 	
-	
-		
-
 	<!-- Content
 	============================================= -->
 	
@@ -67,18 +64,25 @@
 				
 				<h2><span style="display: block; font-size: .6em;">Hannah The Pet Society</span> Vet care for one low monthly fee.</h2>
 				
-				<div class="center">
+				<div class="fleft">
 				
 					<a href="form.php" data-lightbox="ajax">
 						<button class="button" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
 						Get a Quote > 
 						</button>		
+					</a>				
+					<a href="form.php" data-lightbox="ajax">
+						<button class="button" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
+						Schedule a Free Vet Exam > 
+						</button>		
 					</a>
+<!--
 					<a href="#learn" data-scrollto="#learn">
 						<button class="button" data-class-lg="button-small" data-caption-animate="fadeInUp" data-caption-delay="200">
 						Learn More >
 						</button>	
 					</a>
+-->
 				</div>
 				
 			</div>
@@ -100,7 +104,11 @@
 							</h3>
 						</div>
 
-						<p>Hannah is a unique Pet healthcare model that provides comprehensive veterinary and behavioral care services. For one predictable, low monthly fee, our members enjoy the peace of mind that comes with having a team of Veterinary Professionals caring for their Pet Families.</p>
+<!-- 						<p>Hannah is a unique Pet healthcare model that provides comprehensive veterinary and behavioral care services. For one predictable, low monthly fee, our members enjoy the peace of mind that comes with having a team of Veterinary Professionals caring for their Pet Families.</p> -->
+							
+						<p>
+							Hannah is a unique Pet healthcare model. Instead of paying for every visit to the vet and every medical procedure, we provide comprehensive veterinary and behavioral care services for one predictable, low monthly fee. No bills after your vet visits! No cost surprises! <a href="form.php" data-lightbox="ajax">Request a quote.</a>
+						</p>
 						
 						<div class="topmargin"><!-- Member benefits -->
 							<h4 class="center">Hannah Veterinary Care Plans Include</h4>
@@ -151,9 +159,9 @@
 						<div class="clearfix"></div>
 						
 						<p class="fleft">
-							<a href="#">Learn more about how Hannah works.</a>
+							<a href="what-is-hannah.php">Learn more about how Hannah works.</a>
 							<br>
-							<a href="#">Learn why Hannah is a better healthcare alternative for your Pet.</a>
+							<a href="coverage-comparison.php">Learn why Hannah is a better healthcare alternative for your Pet.</a>
 						</p>
 					</div>						
 					
@@ -174,10 +182,12 @@
 				<div class="col_one_third nobottommargin">
 					<div class="feature-box media-box">
 						<div class="fbox-media">
-							<img src="images/icons/hp/tellus.png" alt="Tell us about your pet and get a quote." class="divcenter">
+							<a href="form.php" data-lightbox="ajax">
+								<img src="images/icons/hp/tellus.png" alt="Tell us about your pet and get a quote." class="divcenter">
+							</a>
 						</div>
 						<div class="fbox-desc">
-							<h3 class="center">Tell us about your pet <br> and get a quote.</h3>
+							<h3 class="center"><a href="form.php" data-lightbox="ajax">Tell us about your pet <br> and get a quote.</a></h3>
 							<p>Provide your Pet's name, age, breed and current health status to receive a quote.</p>							
 						</div>
 					</div>
@@ -186,10 +196,12 @@
 				<div class="col_one_third nobottommargin">
 					<div class="feature-box media-box">
 						<div class="fbox-media">
-							<img src="images/icons/hp/schedule.png" alt="Schedule your free vet exam."  class="divcenter">
+							<a href="form.php" data-lightbox="ajax">
+								<img src="images/icons/hp/schedule.png" alt="Schedule your free vet exam."  class="divcenter">
+							</a>
 						</div>
 						<div class="fbox-desc">
-							<h3 class="center">Schedule a free vet exam.</h3>
+							<h3 class="center"><a href="form.php" data-lightbox="ajax">Schedule a free vet exam.</a></h3>
 							<p class="divcenter">A Membership Coordinator will contact you within 12 hours to schedule a FREE veterinary exam and behavior evaluation (valued at $400).</p>
 						</div>
 					</div>
@@ -198,10 +210,12 @@
 				<div class="col_one_third nobottommargin col_last">
 					<div class="feature-box media-box">
 						<div class="fbox-media">
-							<img src="images/icons/hp/customize.png" alt="Customize your plan."  class="divcenter">
+							<a href="form.php" data-lightbox="ajax">
+								<img src="images/icons/hp/customize.png" alt="Customize your plan."  class="divcenter">
+							</a>
 						</div>
 						<div class="fbox-desc">
-							<h3 class="center">Customize your plan.</h3>
+							<h3 class="center"><a href="form.php" data-lightbox="ajax">Customize your plan.</a></h3>
 							<p>Option to add Food Delivery, Parasite Control or Grooming to your plan.</p>
 						</div>
 					</div>
@@ -289,9 +303,9 @@
 			<div class="container clearfix topmargin">	
 				<div class="promo nopadding bottommargin topmargin">
 					<i class="i-plain i-xlarge icon-phone"></i>
-					<h3>Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or Email us at <span><a href="mailto:MembershipTeam@HannahSociety.com">MembershipTeam@HannahSociety.com</a></span></h3>
+					<h3>Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or send us an <span><a href="mailto:MembershipTeam@HannahSociety.com">Email</a></span>to get started!</h3>
 					<span>Portland's only comprehensive pet care and vet hospital. Hannah is redefining your neighborhood vet clinic.</span>
-<!-- 					<a href="#" class="button button-large button-rounded">Start Now</a> -->
+ 					<a href="#" class="button button-large button-rounded">Become a Member</a>
 				</div>
 			</div>
 		</div>
@@ -344,7 +358,7 @@
 		
 		<!-- Member Testimonials
 		============================================= -->	
-		<div class="container clearfix topmargin-lg bottommargin-lg">
+		<div class="container clearfix topmargin bottommargin-lg">
 			<h3 class="center topmargin">Read What Our <span>Members</span> Say</h3>
 			
 			<!-- Testimonial Carousel -->
@@ -353,7 +367,7 @@
 				<div class="oc-item">
 					<div class="testimonial">
 						<div class="testi-image">
-							<a href="#"><img src="images/testimonials/johanny.jpg" alt="Customer Testimonails"></a>
+							<a href="#"><img src="images/testimonials/levi.jpg" alt="Customer Testimonails"></a>
 						</div>
 						<div class="testi-content">
 							<p>There is absolutely no better value than a Hannah plan and I am so thankful to be a lifelong Member!</p><br>
@@ -385,7 +399,7 @@
 				<div class="oc-item">
 					<div class="testimonial">
 						<div class="testi-image">
-							<a href="#"><img src="images/testimonials/jeff.jpg" alt="Customer Testimonails"></a>
+							<a href="#"><img src="images/testimonials/elise_holcombe.jpg" alt="Customer Testimonails"></a>
 						</div>
 						<div class="testi-content">
 							<p>The Vet presented us all our options and let us decide what plan we wanted to take. We were very pleased with this experience.</p>
@@ -398,7 +412,7 @@
 				</div>
 			</div><!-- End Testimonial Carousel -->
 			<h4 class="center" style="margin-top: 10px;">
-				<a href="#">view more testimonials</a>
+				<a href="reviews.php">view more testimonials</a>
 			</h4>
 		</div><!-- End Container Clearfix -->
 		

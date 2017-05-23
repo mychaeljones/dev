@@ -10,9 +10,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<?php require_once('inc_styles.php'); ?>
-	
-	
+	<?php require_once('inc_styles.php'); ?>	
 
 	<!-- Document Title
 	============================================= -->

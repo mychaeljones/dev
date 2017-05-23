@@ -60,13 +60,13 @@
 				<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 				<ul>
-					<li <?php if ($basename == "what-is-hannah" OR $basename == "lifetime-membership" OR $basename == "total-lifetime-care" OR $basename == "philosophy-and-oath" OR $basename == "unique-pet-care-model") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>what-is-hannah.php"><div>What is Hannah?</div></a>
+					<li <?php if ($basename == "what-is-hannah" OR $basename == "lifetime-membership" OR $basename == "total-lifetime-care" OR $basename == "philosophy-and-oath" OR $basename == "unique-pet-care-model") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>what-is-hannah.php"><div>About Hannah</div></a>
 						<ul>
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>what-is-hannah.php"><div>What is Hannah?</div></a></li>
 							
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>lifetime-membership.php"><div>Lifetime Membership</div></a></li>
-							
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>total-lifetime-care.php"><div>Total Lifetime Care</div></a></li>
+							
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>lifetime-membership.php"><div>Lifetime Membership</div></a></li>														
 					
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>philosophy-and-oath.php"><div>Philosophy &amp; Oath</div></a></li>
 														
@@ -75,31 +75,33 @@
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Vet Plans</div></a>
+					<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Vet Care Plans</div></a>
 						<ul>
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>dog-plans.php"><div>Dog Plans</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Dog and Cat Plans</div></a></li>
 															
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>cat-plans.php"><div>Cat Plans</div></a></li>
+<!-- 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Cat Plans</div></a></li> -->
 								
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>sick-or-injured-pet-plans.php"><div>Sick or Injured Pet Plans</div></a></li>
 								
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>additional-services.php"><div>Additional Services</div></a></li>
 								
+<!--
 							<li><a href="inquire-online.php"><div>Inquire Online</div></a></li>
 
 							<li><a href="request-appointment.php"><div>Request Appointment</div></a></li>
+-->
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Why Hannah?</div></a>
+					<li><a href="#"><div>Why Choose Hannah?</div></a>
 						<ul>
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>coverage-comparison.php"><div>Compare to Pet Insurance</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>coverage-comparison.php"><div>Coverage Comparison</div></a></li>
 
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>wellness-comparison.php"><div>Compare to Wellness Plans</div></a></li>
+<!--							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>wellness-comparison.php"><div>Compare to Wellness Plans</div></a></li>
 
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>fee-for-service-comparison.php"><div>Compare to Fee For Service</div></a></li>
 							
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>commonly-asked-questions.php"><div>Commonly Asked Questions</div></a></li>
+ 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>frequently-asked-questions.php"><div>Frequently Asked Questions</div></a></li> -->
 															
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>reviews.php"><div>Reviews</div></a></li>
 						</ul>
@@ -139,6 +141,7 @@
 -->
 					</li>
 					
+<!--
 					<li><a href="#"><div>Contact</div></a>
 						<ul>
 							<li><a href="contact.php"><div>Contact Form</div></a></li>
@@ -146,6 +149,7 @@
 							<li><a href="feedback.php"><div>Give Us Feedback</div></a></li>
 						</ul>
 					</li>
+-->
 					
 					<li><a href="#"><div>Community</div></a>
 						<ul>
@@ -176,3 +180,5 @@
 	</div>
 
 </header><!-- #header end -->
+
+<div class="clear"></div><!-- fix glitch -->

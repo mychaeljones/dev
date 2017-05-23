@@ -1,3 +1,22 @@
+<?php 
+	$current_page = str_replace('/', '', $url); 
+// 	echo $current_page; 	
+	if ($current_page != "index.php") {
+?>	
+	<!-- Call to action before footer -->
+	<div class="footer-stick" style="background-color: #ffde6c; padding-bottom:45px;">		
+		<div class="container clearfix topmargin">	
+			<div class="promo nopadding bottommargin topmargin">
+				<i class="i-plain i-xlarge icon-phone"></i>
+				<h3>Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or send us an <span><a href="mailto:MembershipTeam@HannahSociety.com">Email</a></span> to get started!</h3>
+				<span>Portland's only comprehensive pet care and vet hospital. Hannah is redefining your neighborhood vet clinic.</span>
+<!-- 				<a href="form.php" data-lightbox="ajax" class="button button-large button-rounded">Request a Quote</a> -->
+				<a href="form.php" data-lightbox="ajax" class="button button-large button-rounded">Schedule a Free Exam</a>
+			</div>
+		</div>
+	</div>
+<?php } ?>
+
 <!-- Footer
 ============================================= -->
 <footer id="footer" class="dark">

@@ -11,8 +11,8 @@
 			<div class="top-links">
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="commonly-asked-questions.php">FAQs</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="frequently-asked-questions.php">FAQs</a></li>
+					<li><a href="contact.php">Contact</a></li>
 					<li><a href="login-register.html">Login</a>
 						<div class="top-link-section">
 							<form id="top-login" role="form">
@@ -50,8 +50,8 @@
 -->
 					<li><a href="<?php social("pinterest"); ?>" class="si-pinterest"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">Pinterest</span></a></li>
 					<li><a href="<?php social("instagram"); ?>" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-					<li><a href="tel:+91.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+91.11.85412542</span></a></li>
-					<li><a href="mailto:info@canvas.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">info@canvas.com</span></a></li>
+					<li><a href="tel:3608166000" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">(360) 816-6000</span></a></li>
+					<li><a href="mailto:MembershipTeam@HannahSociety.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">Email Hannah</span></a></li>
 				</ul>
 			</div><!-- #top-social end -->
 

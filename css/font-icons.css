@@ -36,7 +36,7 @@
 [class^="icon-line2-"], [class*=" icon-line2-"],
 .side-header #primary-menu ul > li.sub-menu > a:after {
 	display: inline-block;
-	font-family: 'font-icons';
+	font-family: 'font-icons', 'et-line';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;

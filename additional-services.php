@@ -22,176 +22,99 @@
 	<!-- Content
 	============================================= -->
 	<section id="content">
-
 		<div class="content-wrap">
-
 			<div class="container clearfix">
 
-				<div class="col_one_third">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-screen i-alt"></i></a>
-						</div>
-						<h3>Food Delivery</h3>
-						<p>Receive premium Pet food delivered at your doorstep with no delivery costs. <a href="nutrition.php">Learn more</a></p>
-					</div>
+				<div class="fancy-title title-center paws-bg">
+					<h2>
+						Additional Services:<br>
+						<span style="font-size:.6em">You can customize your Pet's Plan with additional service options to meet your Pet's needs.</span>
+					</h2>
 				</div>
+				
+				<div class="section parallax nobottommargin noborder dark" style="height: 450px; padding: 120px 0;">
 
-				<div class="col_one_third">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-eye i-alt"></i></a>
+					<div class="vertical-middle center" style="z-index: 2; position: absolute; top: 50%; width: 100%; padding-top: 0px; padding-bottom: 0px; margin-top: -112.5px;">
+						<div class="container clearfix fadeInUp animated" data-animate="fadeInUp">
+							<!--
+							<div class="heading-block nobottomborder nobottommargin">
+								<h2 style="font-size: 42px;">Beautiful HTML5 Videos</h2>
+								<span class="hidden-sm hidden-xs">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</span>
+							</div>
+							<a href="#" class="button button-border button-rounded button-white button-light button-large noleftmargin nobottommargin" style="margin-top: 40px;">Show More</a>
+							-->
 						</div>
-						<h3>Parasite Control</h3>
-						<p>Choosing flea control for your Pet can be confusing.  Our medical team will carefully recommend and help you select the correct prevention for your Pet.  We offer a full range of preventive options to protect your Pet against fleas, ticks, heartworms and other potentially deadly parasites.  You can purchase these products at a significant savings, as needed.  If you want to include it in your monthly plan so that you have no financial surprises, add it to your TLC plan.</p>
 					</div>
-				</div>
 
-				<div class="col_one_third col_last">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-beaker i-alt"></i></a>
+					<div class="video-wrap" style="z-index: 1;">
+						<video poster="images/videos/explore.jpg" preload="auto" loop="" autoplay="" muted="" style="width: 1698px; height: 955px; top: -252.5px;">
+							<source src="images/videos/explore.mp4" type="video/mp4">
+							<source src="images/videos/explore.webm" type="video/webm">
+						</video>
+						<div class="video-overlay" style="background-color: rgba(0,0,0,0.1);"></div>
+					</div>
+
+				</div>
+				
+				<div class="col_full bottommargin-lg common-height">
+
+					<div class="col-md-3 dark col-padding ohidden bgColorLight" style="height: 336px;">
+						<div>
+							<center>
+								<img src="images/hannahfood.png" style="height:100px;">
+							</center>
+							<h3 class="uppercase tBlack" style="font-weight: 600;">Food Delivery</h3>
+							<p class= "tBlack" style="line-height: 1.8;">Receive premium Pet food, such as Hannah's proprietary Total Lifetime Nutrition (TLN) food, delivered at your doorstep with no delivery costs.</p>
+							<a href="#" class="button button-border button-rounded button-reveal tright nomargin tBlue"><i class="icon-angle-right"></i><span>Read More</span></a>
 						</div>
-						<h3>Pet Limo</h3>
-						<p>Do you need assistance transporting your Pet to our veterinary hospital?  Hannah's Pet limo service provdes convenience and peace of mind with round trip service to your home.</p>
 					</div>
-				</div>
 
-				<div class="clear"></div>
+					<div class="col-md-3 dark col-padding ohidden bgYellow" style="height: 336px;">
+						<div>
+							<center><img src="images/petlimo.png" style="height:100px"></center>
+							<h3 class="uppercase tBlack" style="font-weight: 600;">Pet Limo</h3>
+							<p class="tBlack" style="line-height: 1.8;">Hannah's Pet limo service provides round trip service from our hospitals and your home.</p>
+							<a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a>
 
-				<div class="col_one_third nobottommargin">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-stack i-alt"></i></a>
 						</div>
-						<h3>Grooming</h3>
-						<p>Whether your Pet needs a quick bath and brush, or full groom and pawdicure, Hannah offers an array of grooming servies.  If your Pet needs grooming multiple times per year, consider adding it to your plan.</p>
 					</div>
-				</div>
 
-				<div class="col_one_third nobottommargin">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-tint i-alt"></i></a>
+					<div class="col-md-3 dark col-padding ohidden bgBlue" style="height: 336px;">
+						<div>
+							<center><img src="images/dog_bath.png" style="height:100px"></center>
+							<h3 class="uppercase tBlack" style="font-weight: 600;">Grooming</h3>
+							<p class="tBlack" style="line-height: 1.8;">Hannah offers an array of bath, brush, and grooming services at a discount. </p>
+							<a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a>
 						</div>
-						<h3>Unlimited Colors</h3>
-						<p>Change the color scheme of the Theme in a flash just by changing the 6-digit HEX code in the colors.php file.</p>
 					</div>
-				</div>
 
-				<div class="col_one_third nobottommargin col_last">
-					<div class="feature-box fbox-rounded fbox-effect">
-						<div class="fbox-icon">
-							<a href="#"><i class="icon-text-width i-alt"></i></a>
+					<div class="col-md-3 dark col-padding ohidden bgRed" style="height: 336px;">
+						<div>
+							<center><img src="images/parasites.png" style="height:100px"></center>
+							<h3 class="uppercase tBlack" style="font-weight: 600;">Parasite Control</h3>
+							<p class="tBlack" style="line-height: 1.8;">Flea, tick, and heartworm medication provided at a discount.</p>
+							<a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a>
+
 						</div>
-						<h3>Customizable Fonts</h3>
-						<p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
 					</div>
-				</div>
 
+					<div class="clear"></div>
+
+				</div>
 			</div>
-
-			<div class="section parallax nobottommargin noborder dark" style="height: 450px; padding: 120px 0;">
-
-				<div class="vertical-middle center" style="z-index: 2;">
-					<div class="container clearfix" data-animate="fadeInUp">
-						<div class="heading-block nobottomborder nobottommargin">
-							<h2 style="font-size: 42px;">Beautiful HTML5 Videos</h2>
-							<span class="hidden-sm hidden-xs">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</span>
-						</div>
-						<a href="#" class="button button-border button-rounded button-white button-light button-large noleftmargin nobottommargin" style="margin-top: 40px;">Show More</a>
+			
+			<!-- Call us for Membership -->
+			<div class="content bgcolor-2">		
+				<div class="container clearfix topmargin">	
+					<div class="promo nopadding bottommargin topmargin">
+						<i class="i-plain i-xlarge icon-phone"></i>
+						<h3 class="tWhite">Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or Email us at <span><a href="mailto:MembershipTeam@HannahSociety.com">MembershipTeam@HannahSociety.com</a></span></h3>
+						<span class="tWhite">Portland's only comprehensive pet care and vet hospital. Hannah is redefining your neighborhood vet clinic.</span>
+	<!-- 					<a href="#" class="button button-large button-rounded">Start Now</a> -->
 					</div>
 				</div>
-
-				<div class="video-wrap" style="z-index: 1;">
-					<video poster="images/videos/explore.jpg" preload="auto" loop autoplay muted>
-						<source src='images/videos/explore.mp4' type='video/mp4' />
-						<source src='images/videos/explore.webm' type='video/webm' />
-					</video>
-					<div class="video-overlay" style="background-color: rgba(0,0,0,0.1);"></div>
-				</div>
-
 			</div>
-
-			<div class="col_full bottommargin-lg common-height">
-
-				<div class="col-md-4 dark col-padding ohidden" style="background-color: #1abc9c;">
-					<div>
-						<h3 class="uppercase" style="font-weight: 600;">Why choose Us</h3>
-						<p style="line-height: 1.8;">Transform, agency working families thinkers who make change happen communities. Developing nations legal aid public sector our ambitions future aid The Elders economic security Rosa.</p>
-						<a href="#" class="button button-border button-light button-rounded button-reveal tright uppercase nomargin"><i class="icon-angle-right"></i><span>Read More</span></a>
-						<i class="icon-bulb bgicon"></i>
-					</div>
-				</div>
-
-				<div class="col-md-4 dark col-padding ohidden" style="background-color: #34495e;">
-					<div>
-						<h3 class="uppercase" style="font-weight: 600;">Our Mission</h3>
-						<p style="line-height: 1.8;">Frontline respond, visionary collaborative cities advancement overcome injustice, UNHCR public-private partnerships cause. Giving, country educate rights-based approach; leverage disrupt solution.</p>
-						<a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a>
-						<i class="icon-cog bgicon"></i>
-					</div>
-				</div>
-
-				<div class="col-md-4 dark col-padding ohidden" style="background-color: #e74c3c;">
-					<div>
-						<h3 class="uppercase" style="font-weight: 600;">What you get</h3>
-						<p style="line-height: 1.8;">Sustainability involvement fundraising campaign connect carbon rights, collaborative cities convener truth. Synthesize change lives treatment fluctuation participatory monitoring underprivileged equal.</p>
-						<a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read More</a>
-						<i class="icon-thumbs-up bgicon"></i>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-			</div>
-
-			<div class="container clearfix">
-
-				<div class="pricing-box pricing-extended bottommargin clearfix">
-
-					<div class="pricing-desc">
-						<div class="pricing-title">
-							<h3>How many Themes can you Download today?</h3>
-						</div>
-						<div class="pricing-features">
-							<ul class="iconlist-color clearfix">
-								<li><i class="icon-desktop"></i> Ultra Responsive Layouts</li>
-								<li><i class="icon-eye-open"></i> Retina Ready Designs</li>
-								<li><i class="icon-beaker"></i> Advanced Admin Panel</li>
-								<li><i class="icon-magic"></i> Tons of Customization Options</li>
-								<li><i class="icon-font"></i> Support for Custom Fonts</li>
-								<li><i class="icon-stack3"></i> Premium Sliders Included</li>
-								<li><i class="icon-file2"></i> Photoshop Source Files Included</li>
-								<li><i class="icon-support"></i> 24x7 Priority Email Support</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="pricing-action-area">
-						<div class="pricing-meta">
-							As Low as
-						</div>
-						<div class="pricing-price">
-							<span class="price-unit">&euro;</span>39<span class="price-tenure">monthly</span>
-						</div>
-						<div class="pricing-action">
-							<a href="#" class="button button-3d button-large btn-block nomargin">Get Started</a>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<a class="button button-full center tright topmargin footer-stick">
-				<div class="container clearfix">
-					Need help with your Account? <strong>Start here</strong> <i class="icon-caret-right" style="top:4px;"></i>
-				</div>
-			</a>
-
-		</div>
-
+		</div>	
 	</section><!-- #content end -->
 
 <?php	

@@ -99,7 +99,7 @@
 		});
 
 	</script>
-<?php endif; ?>
+<?php #here was the end of the <?php endif; ?>
 
 	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDCXzdMeI_ceGzSFTY2tQseSYhRlVmkmcg&libraries=geometry"></script>
 	<script type="text/javascript" src="js/jquery.gmap.js"></script>
@@ -186,7 +186,9 @@
 		});
 
 	</script>
+	
 
+<?php endif; ?>
 
 </body>
 </html>

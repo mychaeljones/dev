@@ -1,20 +1,26 @@
 <?php get_header(); ?>
 		
+<!-- Page Title
+============================================= -->
+<section id="page-title" class="topmargin-sm" style="background:url(../images/paws.png); background-size:contain; border-bottom:none;">
+
+	<div class="container clearfix">
+		<h1>Blog</h1>
+		<span>News, Events, and Information</span>
+		<ol class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li class="active">Veterinary Care</li>
+		</ol>
+	</div>
+
+</section><!-- #page-title end -->
+
 <!-- Content
-=========================================================== -->
-<section id="content">
+============================================= -->
+<section id="content" class="topmargin-sm">
 
 	<div class="content-wrap">
-
-
-		<a class="button button-full button-purple center tright header-stick bottommargin-lg">
-			<div class="container clearfix">
-
-				
-			</div>
-		</a>
-
-
+		
 		<div class="container clearfix">
 			<!-- Posts
 			=================================================== -->			
