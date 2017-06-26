@@ -49,6 +49,22 @@ h1, h2, h3, h4, h5, h6 {
 	
 ******************************************************************/
 
+.btn-hannah {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.btn-hannah:hover {
+	background-color: #13b5ea;
+	border-color: #13b5ea;
+}
+
+.dark #footer .social-icon.si-borderless, #footer.dark .social-icon.si-borderless {
+    color: #13b5ea !important;
+}
+
+
 /* Highlighter */
 .highlight { 
 	background-color: #ccff15; 
@@ -72,10 +88,15 @@ h1, h2, h3, h4, h5, h6 {
 .bgBlue { background-color: #13b5ea; }
 .bgDarkBlue { background-color: #00467f; }
 .bgYellow { background-color: #ffde6c; }
+.bgYellowLight { background-color: #ffd; }
 .bgOrange { background-color: #f58025; }
 .bgRed { background-color: #98002e; }
+.bgGreenLight { background-color: hsl(120, 100%, 97%); }
 .bgGreen { background-color: #5cb85c; }
 .bgWhite { background-color: #ffffff; }
+
+.promo.promo-light { background-color: rgba(19, 181, 234, 0.05); }
+.mobileServices a { color: black !important; }
 
 
 
@@ -86,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 .table .notIncluded { color: #ec3b00; }
 
 .petCareTable td:nth-child(2) { background-color: rgb(255, 242, 195); }
-.petCareTable td:nth-child(3) { background-color: rgba(243, 0, 0, 0.11); }
+.petCareTable td:nth-child(3) { background-color: rgba(19, 181, 234, 0.14) !important; }  /* { background-color: rgba(243, 0, 0, 0.11); } */
 .petCareTable td:nth-child(4) { background-color: rgb(247, 172, 148); }
 .bgBlueTable, .petCareTable td:nth-child(5) { background-color: rgba(19, 181, 234, 0.14) !important; }
 
@@ -144,26 +165,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(51, 122, 183, 0.10);
 }
 
-.paws {
-	font-size:1.2em; 
-	font-weight:300;
-}
-
-.paws li {
-	padding-bottom: 10px;
-}
-
-.paws-bg {
-	background: url(/images/paws.png);
-    background-size: contain;
-    border-bottom: none;
-}
-
-.paws-bg h2, .paws-bg h3, .paws-bg h4 {
-	background: none;
-}
-
-
 /* Footer */
 #footer-logo {
     background-color: #13b5ea;
@@ -208,9 +209,42 @@ h1, h2, h3, h4, h5,
 	text-shadow: 1px 1px 1px #98002e;
 }
 
-.paws {
-	list-style-image: url("/images/icons/paw.svg");
+.paws-bg {
+	background: url(/images/paws.png);
+    background-size: contain;
+    border-bottom: none;
 }
+
+.paws-bg h2, .paws-bg h3, .paws-bg h4 {
+	background: none;
+}
+
+.paws {
+	list-style: none;
+    list-style-position: inside;
+    padding-left: 1.5em;
+    text-indent: -1.7em;
+}
+
+.paws li {
+	font-size:1.1em; 
+	font-weight:400;
+	padding-bottom: 10px;
+}
+
+.paws li:before { 
+content:''; 
+display:inline-block; 
+height:.8em; 
+width:1em; 
+background-image:url('/images/icons/paw.svg'); 
+background-size:contain; 
+background-repeat:no-repeat; 
+padding-left: 1.5em;
+text-indent: 1.5em;
+}
+
+
 
 
 /* UL LISTS */
@@ -241,18 +275,24 @@ h1, h2, h3, h4, h5,
 /* Boxes */
 
 .yellowBox {
-	border: solid 3px #ffde6c;
+	border: solid 1px #ffde6c;
 	border-radius: 10px;
+	padding-top:15px;
 	}
 
 	.yellowBox h3 {
+		border-top-left-radius: inherit;
+		border-top-right-radius: inherit;		
 		background-color: #ffde6c;
-		padding: 25px;
+		padding: 15px;
 	}
 	
 	.yellowBox p, .yellowBox h4{
 		padding: 10px 5% 0 5%;
+		font-style: italic;
+		font-weight: bold;
 	}
+	
 
 .greenBox {
     border: solid 3px #5cb85c;
@@ -261,7 +301,7 @@ h1, h2, h3, h4, h5,
 
 	.greenBox h3 {
 		background-color: #5cb85c;
-		padding: 25px;
+		padding: 10px;
 		color: #fff;
 	}
 	
@@ -345,7 +385,13 @@ h1, h2, h3, h4, h5,
 .blueBox p {
 	margin-bottom: 10px;
 }	
-	
+
+.trivia p {
+	margin-bottom: 0;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    padding-bottom: 10px;
+}
 
 	
 	
@@ -485,6 +531,7 @@ h1, h2, h3, h4, h5,
 		float: left;
 		margin-top: 0px !important;
 		margin-bottom: 40px;
+		min-height: 140px;
 	}
 	
 	.hpBackground {
@@ -579,4 +626,21 @@ h1, h2, h3, h4, h5,
 
 .topmargin-xxs {
 	margin-top: 5px !important;
+}
+
+.button.button-border:not(.button-fill):hover {
+    background-color: #337ab7;
+    color: #FFF;
+    border-color: transparent !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+
+/* Make stuff work */
+.heading-block:after {
+	display: none;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: white !important;
 }
