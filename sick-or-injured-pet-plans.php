@@ -34,7 +34,7 @@
 						<span>
 							Sick or injured Pet? 
 							No worries! <br> 
-							Hannah usually can help at a much lower cost for you.
+							Hannah usually can help at a much lower cost for you.*
 						</span>
 					</div>
 
@@ -85,7 +85,7 @@
 					<div class="center topmargin-sm">
 						<a href="form.php" data-lightbox="ajax">
 							<button type="button" class="center btn btn-default btn-success">
-								Get Started
+								Get a Quote and Get Started
 							</button>
 						</a>
 					</div>
@@ -102,7 +102,7 @@
 
 				<div class="col_three_fifth nobottommargin col_last">
 
-					<div class="heading-block">
+					<div class="">
 						<h3>At your Pet's initial exam:</h3>
 					</div>
 
@@ -113,7 +113,7 @@
 	
 							<li>50% of the quoted cost will be deferred - Members only have to pay this amount if and when they leave our program. </li>
 	
-							<li>Upon enrollment, Members can elect to pay the other 50% in 12 equal monthly installments or at the time of enrollment.*</li>
+							<li>Upon enrollment, Members can elect to pay the other 50% in 12 equal monthly installments or at the time of enrollment.**</li>
 	
 							<li>Receive treatment for your Pet and relax!</li>
 							
@@ -127,10 +127,16 @@
 				<div class="divider divider-right topmargin-sm"><i class="icon-heart"></i></div>
 
 				<div class="col_full nobottommargin nobottompadding">
-					<p style="font-size: .8em;"><strong>*</strong> Members that elect to pay 50% of the total cost to treat must remain in good standing for the 12 month period.  Additionally, if Hannah needs to refer a procedure to an external Specialist, the Member may have to pay any cost that we pay to the third party at the time of enrollment (but this amount normally will be substantially lower than it would cost a Member to seek treatment on their own).</p>
-					
 					<p style="font-size: .8em;"><strong>*</strong> Hannah accepts Pets with most pre-existing conditions, but reserves the right not to. Hannah does not accept aggressive Pets or Pets with certain back injuries, cancers, brain tumors or Parvo.</p>
-
+					
+					<p style="font-size: .8em;"><strong>**</strong> Members that elect to pay 50% of the total cost to treat must remain in good standing for the 12 month period.  Additionally, if Hannah needs to refer a procedure to an external Specialist, the Member may have to pay any cost that we pay to the third party at the time of enrollment (but this amount normally will be substantially lower than it would cost a Member to seek treatment on their own).</p>
+					
+<section class="yellowBox">					
+	<h3>Here is what our members say:</h3>
+	<p>"This place saved my dog. She was diagnosed with pancreatitis and it wasn't looking too great. Luckily they admitted her even though they knew about her ailment and they treated her. After 3 weeks of being hospitalized she is finally back to her happy and playful self. . . Amazing doctors and an incredible staff. I have told countless people that this is where to go if you want great care for [your] Pets." <br><br><span style="text-align: right;">Tony G. February 2017</span></p>
+	
+	<p>"Nearly two weeks ago I took my dog to another clinic and she was diagnosed with Pyometra and I was told she would die that day without surgery. I couldn't afford the $3,800 they wanted. . . A week later and my fur baby was still alive and fighting. Finally I ran across Hannah. . . From the moment I walked in with my insanely thin and ill dog, I was treated with respect and compassion. They didn't hesitate to take care of my fur baby, blood work, X-ray, IV with fluids before I even gave them payment information. My dog is alive, back home, after days of surgery and hospital care, for a fraction of the cost the other vet wanted, and payments spread over the next 12-months. I also, now, will never have to experience this again because for my monthly fee and membership my dog will have great veterinarian care for the rest of her life, no matter what financial obstacles are thrown at me. . ." <br><br><span>Jennifer H. June 2016</span></p>
+</section>
 
 				</div>
 				

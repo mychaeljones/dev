@@ -24,26 +24,16 @@
 			?>
 		</div><!-- #logo end -->
 
-		<ul class="header-extras">
-<!--
+		<ul class="header-extras">			
 			<li>
-				<i class="i-plain icon-email3 nomargin"></i>
-				<div class="he-text">
-					Drop an Email
-					<span>info@canvas.com</span>
-				</div>
-			</li>
--->
-			
-			<li>
-			<a href="tel:1-360-816-8000" style="color: black;">
-				<i class="i-plain icon-call nomargin"></i>
-				<div class="he-text">
-					Experiencing a Pet Emergency? 
-					Need Help Now?
-					<span>Call 360.816.8000 and bring your Pet in immediately. <br>Click here for more details.</span>
-				</div>
-			</a>
+				<a href="tel:1-360-816-8000" style="color: black;">
+					<i class="i-plain icon-call nomargin"></i>
+					<div class="he-text">
+						Experiencing a Pet Emergency? 
+						Need Help Now?
+						<span>Call 360.816.8000 and bring your Pet in immediately.</span>
+					</div>
+				</a>
 			</li>
 		</ul>
 
@@ -66,7 +56,9 @@
 							
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>total-lifetime-care.php"><div>Total Lifetime Care</div></a></li>
 							
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>lifetime-membership.php"><div>Lifetime Membership</div></a></li>														
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>lifetime-membership.php"><div>Lifetime Membership</div></a></li>
+							
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>our-promise.php"><div>Our Promise</div></a></li>					
 					
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>philosophy-and-oath.php"><div>Philosophy &amp; Oath</div></a></li>
 														
@@ -75,97 +67,76 @@
 						</ul>
 					</li>
 					
-					<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Vet Care Plans</div></a>
+					<li <?php if ($basename == "vet-care" OR $basename == "sick-or-injured-pet-plans") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Vet Care Plans</div></a>
 						<ul>
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Dog and Cat Plans</div></a></li>
-															
-<!-- 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Cat Plans</div></a></li> -->
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-care.php"><div>Dog and Cat Plans</div></a></li>															
 								
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>sick-or-injured-pet-plans.php"><div>Sick or Injured Pet Plans</div></a></li>
-								
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>additional-services.php"><div>Additional Services</div></a></li>
-								
-<!--
-							<li><a href="inquire-online.php"><div>Inquire Online</div></a></li>
 
-							<li><a href="request-appointment.php"><div>Request Appointment</div></a></li>
--->
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>guinea-pigs-and-bunnies.php"><div>Guinea Pigs and Bunnies</div></a></li>								
 						</ul>
 					</li>
 					
-					<li><a href="#"><div>Why Choose Hannah?</div></a>
+					<li <?php if ($basename == "why-hannah" OR $basename == "reviews") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>why-hannah.php"><div>Why Hannah?</div></a>
 						<ul>
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>coverage-comparison.php"><div>Coverage Comparison</div></a></li>
-
-<!--							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>wellness-comparison.php"><div>Compare to Wellness Plans</div></a></li>
-
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>fee-for-service-comparison.php"><div>Compare to Fee For Service</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>why-hannah.php"><div>Why Hannah?</div></a></li>
 							
- 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>frequently-asked-questions.php"><div>Frequently Asked Questions</div></a></li> -->
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>how-are-we-able.php"><div>How Are We Able To Do It?</div></a></li>
 															
 							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>reviews.php"><div>Reviews</div></a></li>
 						</ul>
 					</li>
 
-					<li><a href="#"><div>Vet Services</div></a>
+					<li <?php if ($basename == "vet-services-wellness-care" OR $basename == "vet-services-emergency-care" OR $basename == "vet-services-dentals" OR $basename == "vet-services-spay-and-neuter" OR $basename == "vet-services-diagnostic-and-imaging" OR $basename == "vet-services-surgeries" OR $basename == "vet-services-pharmacy" OR $basename == "vet-services-behavior-support" OR $basename == "vet-services-training") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-wellness-care.php"><div>Vet Services</div></a>
 						<ul>
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>wellness-care.php"><div>Wellness Care</div></a></li>
-															
-							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>emergency-care.php"><div>Emergency Care</div></a></li>
-								
-							<li><a href="#"><div>Dentals</div></a></li>
-								
-							<li><a href="#"><div>Spay/Neuter</div></a></li>
-
-							<li><a href="#"><div>Radiology/Ultrasound</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-wellness-care.php"><div>Wellness Care</div></a></li>
 							
-							<li><a href="#"><div>Surgeries</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-surgeries.php"><div>Surgeries</div></a></li>							
+															
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-emergency-care.php"><div>Emergency Care</div></a></li>
+							
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-diagnostic-and-imaging.php"><div>Diagnostic &amp; Imaging</div></a></li>								
+								
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-dentals.php"><div>Dentals</div></a></li>
+								
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-spay-and-neuter.php"><div>Spay &amp; Neuter</div></a></li>			
 
-							<li><a href="#"><div>Pharmacy</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-pharmacy.php"><div>Pharmacy</div></a></li>
 
-							<li><a href="#"><div>Behavior Support</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-behavior-support.php"><div>Behavior Support</div></a></li>
 
-							<li><a href="#"><div>Training</div></a></li>																
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>vet-services-training.php"><div>Training</div></a></li>																
 						</ul>
 					</li>
 					
-					<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>locations.php"><div>Locations</div></a>
-<!--
+					<li <?php if ($basename == "pet-match-counseling") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>pet-matching-services.php"><div>Pet Matching</div></a>
 						<ul>
-							<li><a href="veterinary-hospitals.php"><div>Veterinary Hospitals</div></a></li>
-															
-							<li><a href="#"><div>Portland</div></a></li>
-																						
-							<li><a href="#"><div>Tigard</div></a></li>
-						</ul>
--->
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>pet-matching-services.php"><div>Pet Matching Services</div></a></li>
+											
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>pets-looking-for-a-home.php"><div>Pets Looking for a Home</div></a></li>				
+											
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>non-members-looking-to-rehome-pets.php"><div>Non-Members Looking to Rehome Pets</div></a></li>
+						</ul>				
+					
 					</li>
 					
-<!--
-					<li><a href="#"><div>Contact</div></a>
-						<ul>
-							<li><a href="contact.php"><div>Contact Form</div></a></li>
-															
-							<li><a href="feedback.php"><div>Give Us Feedback</div></a></li>
-						</ul>
-					</li>
--->
+					<li <?php if ($basename == "locations") echo 'class="current"'; ?>><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>locations.php"><div>Locations</div></a></li>
 					
 					<li><a href="#"><div>Community</div></a>
 						<ul>
-							<li><a href="#"><div>Hannah's Helping Hands</div></a></li>
+							<li><a href="<?php echo (check_for_blog()) ? '../../' : ''; ?>hannahs-helping-hands.php"><div>Hannah's Helping Hands</div></a></li>
 															
-							<li><a href="#"><div>Hannah Friends Group</div></a></li>
+							<li><a href="http://hannahpetfriends.org" target="_blank"><div>Hannah Friends Group</div></a></li>
 
-							<li><a href="news.php"><div>News and Events</div></a></li>																
+							<li><a href="/blog/index.php" alt="News and Events Blog"><div>News and Events Blog</div></a></li>							
 						</ul>
 					</li>
 					
-					<li><a href="/blog/index.php"><div>Blog</div></a>
+					
 				</ul>
 
 				<!-- Top Search
-				============================================= -->
+				=============================================
 				<div id="top-search">
 					<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 					<form action="search.html" method="get">

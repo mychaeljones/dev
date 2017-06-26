@@ -1,16 +1,51 @@
 <?php 
+	### for member testimonials
+	include('inc_member-reviews.php');
+	
+	### random review
+	$review_number = rand(0,5);
+	
+	$url = $_SERVER['REQUEST_URI'];
 	$current_page = str_replace('/', '', $url); 
 // 	echo $current_page; 	
-	if ($current_page != "index.php") {
+	if ($current_page == "index.php" OR $current_page == "" OR $current_page == "behavior-education-support-and-training.php") {
+		} else {
+			if ($current_page == "vet-services-training.php" OR $current_page == "total-lifetime-nutrition.php" OR $current_page == "sick-or-injured-pet-plans.php" OR $current_page == "reviews.php" OR $current_page == "404.php") {
+			} else {
 ?>	
+
+	<!-- Member Testimonial -->
+	<div class="container topmargin">
+		<h4 class="center">What Hannah Members Say</h4>
+		<div class="yellowBox bgYellowLight bottommargin-sm">
+			
+			<div class="fslider testimonial-full bottommargin" data-animation="fade" data-arrows="false">
+				<div class="flexslider" style="height: 176px;">
+					<div class="slider-wrap">
+						<div class="slide" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+							<div class="testi-content">
+								<p><?php echo $review[$review_number]["quote"]; ?></p>
+								<div class="testi-meta">
+									<?php echo $review[$review_number]["member"]; ?>
+									<span><?php echo $review[$review_number]["date"]; ?></span>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<?php }; ?>
+	
 	<!-- Call to action before footer -->
-	<div class="footer-stick" style="background-color: #ffde6c; padding-bottom:45px;">		
-		<div class="container clearfix topmargin">	
+	<div class="footer-stick notopmargin bgYellow" style="padding-bottom:45px;">		
+		<div class="container clearfix">	
 			<div class="promo nopadding bottommargin topmargin">
 				<i class="i-plain i-xlarge icon-phone"></i>
-				<h3>Call us today at <span><a href="tel:360-816-6000">360.816.6000</a></span> or send us an <span><a href="mailto:MembershipTeam@HannahSociety.com">Email</a></span> to get started!</h3>
-				<span>Portland's only comprehensive pet care and vet hospital. Hannah is redefining your neighborhood vet clinic.</span>
-<!-- 				<a href="form.php" data-lightbox="ajax" class="button button-large button-rounded">Request a Quote</a> -->
+				<h3>Call us today at <span><a href="tel:360-816-8000">360.816.8000</a></span> or send us an <span><a href="mailto:MembershipTeam@HannahSociety.com">Email</a></span> to get started!</h3>
+				<span class="font-weight:400;">Portland's only comprehensive Pet care and vet hospital. Hannah is redefining your neighborhood vet clinic.</span>
 				<a href="form.php" data-lightbox="ajax" class="button button-large button-rounded">Schedule a Free Exam</a>
 			</div>
 		</div>
@@ -67,27 +102,6 @@
 
 				</div>
 
-<!--
-				<div class="col_one_third">
-
-					<div class="widget widget_links clearfix">
-
-						<h4>Blogroll</h4>
-
-						<ul>
-							<li><a href="http://codex.wordpress.org/">Documentation</a></li>
-							<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-							<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-							<li><a href="http://wordpress.org/support/">Support Forums</a></li>
-							<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-							<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-							<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
-						</ul>
-
-					</div>
-
-				</div>
--->
 
 				<div class="col_one_third col_last">
 
@@ -157,13 +171,12 @@
 
 				</div>
 
-				<div class="widget subscribe-widget clearfix">
+				<div class="widget clearfix">
 					<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-					<div class="widget-subscribe-form-result"></div>
-					<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
+					<form action="email.php" method="post" class="nobottommargin">
 						<div class="input-group divcenter">
 							<span class="input-group-addon"><i class="icon-email2"></i></span>
-							<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+							<input type="email" class="form-control required email" placeholder="Enter your Email">
 							<span class="input-group-btn">
 								<button class="btn btn-success" type="submit">Subscribe</button>
 							</span>
@@ -206,29 +219,29 @@
 
 		<div class="container clearfix">
 
-			<div class="col_half">
+			<div class="col_half tBlue">
 				Copyrights &copy; <?php echo date("Y"); ?> All Rights Reserved by Hannah Pet Society.<br>
-				<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+<!-- 				<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div> -->
 			</div>
 
 			<div class="col_half col_last tright">
 				<div class="fright clearfix">
-					<a href="<?php social("facebook"); ?>" class="social-icon si-small si-borderless si-facebook">
+					<a href="<?php social("facebook"); ?>" class="social-icon si-small si-borderless si-facebook"  target="_blank">
 						<i class="icon-facebook"></i>
 						<i class="icon-facebook"></i>
 					</a>
 
-					<a href="<?php social("twitter"); ?>" class="social-icon si-small si-borderless si-twitter">
+					<a href="<?php social("twitter"); ?>" class="social-icon si-small si-borderless si-twitter" target="_blank">
 						<i class="icon-twitter"></i>
 						<i class="icon-twitter"></i>
 					</a>
 
-					<a href="<?php social("google"); ?>" class="social-icon si-small si-borderless si-gplus">
+					<a href="<?php social("google"); ?>" class="social-icon si-small si-borderless si-gplus" target="_blank">
 						<i class="icon-gplus"></i>
 						<i class="icon-gplus"></i>
 					</a>
 
-					<a href="<?php social("pinterest"); ?>" class="social-icon si-small si-borderless si-pinterest">
+					<a href="<?php social("pinterest"); ?>" class="social-icon si-small si-borderless si-pinterest" target="_blank">
 						<i class="icon-pinterest"></i>
 						<i class="icon-pinterest"></i>
 					</a>
@@ -237,7 +250,7 @@
 
 				<div class="clear"></div>
 
-				<i class="icon-envelope2"></i> info@hannahdev.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span>
+				<a href="mailto:<?php social("email"); ?>"><i class="icon-envelope2"></i> <?php social("email"); ?></a> <span class="middot">&middot;</span> <a href="tel:<?php social("telephone"); ?>"><i class="icon-phone"></i> (360)816-8000</a>
 			</div>
 
 		</div>

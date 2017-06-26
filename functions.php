@@ -97,7 +97,8 @@
 			"twitter" 	=> "https://twitter.com/HannahSociety",
 			"instagram" => "https://instagram.com/hannahthepetsociety/",
 			"pinterest" => "https://www.pinterest.com/hannah_society/",
-			"email"		=> "mailto:MembershipTeam@HannahSociety.com",
+			"email"		=> "MembershipTeam@HannahSociety.com",
+			"telephone" => "+13608168000"
 		);
 		
 		if(array_key_exists($platform, $social_media_links)) {

@@ -12,8 +12,8 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="frequently-asked-questions.php">FAQs</a></li>
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="login-register.html">Login</a>
+					<li><a href="locations.php">Contact</a></li>
+<!-- 					<li><a href="login-register.html">Login</a> -->
 						<div class="top-link-section">
 							<form id="top-login" role="form">
 								<div class="input-group" id="top-login-username">
@@ -42,15 +42,11 @@
 			============================================= -->
 			<div id="top-social">
 				<ul>
-					<li><a href="<?php social("facebook"); ?>" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-					<li><a href="<?php social("twitter"); ?>" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
-<!--
- 					<li><a href="#" class="si-dribbble"><span class="ts-icon"><i class="icon-dribbble"></i></span><span class="ts-text">Dribbble</span></a></li>
-					<li><a href="#" class="si-github"><span class="ts-icon"><i class="icon-github-circled"></i></span><span class="ts-text">Github</span></a></li>
--->
-					<li><a href="<?php social("pinterest"); ?>" class="si-pinterest"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">Pinterest</span></a></li>
-					<li><a href="<?php social("instagram"); ?>" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-					<li><a href="tel:3608166000" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">(360) 816-6000</span></a></li>
+					<li><a href="<?php social("facebook"); ?>" class="si-facebook" target="_blank"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+					<li><a href="<?php social("twitter"); ?>" class="si-twitter" target="_blank"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+					<li><a href="<?php social("pinterest"); ?>" class="si-pinterest" target="_blank"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">Pinterest</span></a></li>
+					<li><a href="<?php social("instagram"); ?>" class="si-instagram" target="_blank"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+					<li><a href="tel:3608168000" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">(360) 816-8000</span></a></li>
 					<li><a href="mailto:MembershipTeam@HannahSociety.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">Email Hannah</span></a></li>
 				</ul>
 			</div><!-- #top-social end -->
